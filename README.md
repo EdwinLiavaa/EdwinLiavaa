@@ -1,4 +1,4 @@
-<h2> Hi there 👋, I'm Edwin Liava'a a.k.a FidelChe </h2>
+<h2> Hi there 👋, I am Edwin Liava'a a.k.a FidelChe </h2>
     
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
