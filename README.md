@@ -3,7 +3,7 @@
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwinLiavaa)
-[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=Blockchain%2FChainlink%20%3A%20Satellite%20Broadband%20Service%20Chain&id=blockchain-chainlink-satellite-broadband-supply-chain&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa)
+[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=Blockchain%2FChainlink%20%3A%20Satellite%20Broadband%20Service%20Chain&id=""&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa)
 <!--
 **FidelChe/FidelChe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
