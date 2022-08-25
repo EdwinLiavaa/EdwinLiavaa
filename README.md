@@ -7,7 +7,7 @@
 
 I am passionate about connectivity for a better world with cryptographic truth. A Web3 Engineer, Smart Contract Developer, Advocate and Evangelist. I am here to learn, build, share and to help others with the same common interests in the DLT space.
 
-#### Github Stats 📊
+#### GitHub Stats 📊
 
 [![FidelChe's github stats](https://github-readme-stats.vercel.app/api?username=FidelChe)](https://github.com/anuraghazra/github-readme-stats)
 
