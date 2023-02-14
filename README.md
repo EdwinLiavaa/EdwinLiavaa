@@ -1,7 +1,7 @@
 <h2> Hi there 👋, I am Edwin Liava'a -> FidelChe </h2>
     
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/)
-[![Edwin Liava'a Google Developer](https://developers.google.com/profile/badges/profile/created-profile)](https://g.dev/FidelChe))
+[![Edwin Liava'a Google Developer](https://developers.google.com/profile/badges/profile/created-profile)](https://g.dev/FidelChe)
 <!--[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=DEVPOST&id=""&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa)-->
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
