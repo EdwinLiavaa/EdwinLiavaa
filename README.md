@@ -6,7 +6,8 @@
 <!--[![Edwin Liava'a Google Developer](https://developers.google.com/profile/badges/profile/created-profile)](https://g.dev/FidelChe)-->
 <!--[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=DEVPOST&id=""&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa)-->
 
-I am passionate about connectivity for a better world with cryptographic truth. A Web3 Engineer, Smart Contract Developer, Advocate, Evangelist and Mentor. I am here to learn, build, share and to help others with the same common interests in the DLT space.
+I am passionate about connectivity for a better world with cryptographic truth. 
+AMentor | Advisor | Entrepreneur | Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts.
 
 #### GitHub Stats 📊
 
