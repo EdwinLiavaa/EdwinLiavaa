@@ -11,7 +11,7 @@ AMentor | Advisor | Entrepreneur | Innovator | Activist | Prompt Engineer | Deve
 
 #### GitHub Stats 📊
 
-[![FidelChe's github stats](https://github-readme-stats.vercel.app/api?username=FidelChe)](https://github.com/anuraghazra/github-readme-stats)
+[![FidelChe's GitHub stats](https://github-readme-stats.vercel.app/api?username=FidelChe)](https://github.com/anuraghazra/github-readme-stats) 
 
 <!--
 **FidelChe/FidelChe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
