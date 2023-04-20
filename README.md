@@ -3,7 +3,7 @@
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
-[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=DEVPOST&id=""&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
+<--[![Edwin Liava'a Devpost](https://badges.devpost-shields.com/get-badge?name=DEVPOST&id=""&type=big-logo&style=for-the-badge)](https://devpost.com/etuini-liavaa)--> 
 
 I am passionate about connectivity for a better world with cryptographic truth. 
 AMentor | Advisor | Entrepreneur | Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts.
