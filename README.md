@@ -6,6 +6,7 @@
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
 
 I am passionate about connectivity for a better world with cryptographic truth. 
+
 Humanitarian | Mentor | Advisor | Entrepreneur | Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts.
 
 #### GitHub Stats 📊
