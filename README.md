@@ -7,7 +7,7 @@
 
 I am passionate about connectivity for a better world with cryptographic truth. 
 
-Humanitarian | Mentor | Advisor | Entrepreneur | Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts.
+Humanitarian | Mentor | Advisor  Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts.
 
 #### GitHub Stats 📊
 
