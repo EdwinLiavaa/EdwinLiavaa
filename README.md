@@ -5,7 +5,7 @@
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCGCjdhzDBYgU0_YGznVqZQQ)
 
-I am passionate about connectivity for a better world with cryptographic truth. 
+I innovate, provide solutions and passionate about connectivity for a better world with cryptographic truth.
 
 Humanitarian | Mentor | Advisor  Innovator | Activist | Prompt Engineer | Developer | AI | ML | Web3 | Blockchain | Smart Contracts | Geomatics
 
