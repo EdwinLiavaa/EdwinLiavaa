@@ -1,4 +1,4 @@
-<h2> Hi there 👋, I am Edwin Liava'a -> FidelChe </h2>
+<h2> Hi there 👋, I am FidelChe -> Edwin Liava'a </h2>
     
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
