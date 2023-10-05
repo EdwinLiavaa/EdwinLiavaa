@@ -9,7 +9,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Prompt Engineer | Devel
 
 #### GitHub Stats 📊
 
-[![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa)](https://github.com/anuraghazra/github-readme-stats) 
+[![Edwin Liava'a GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa)](https://github.com/anuraghazra/github-readme-stats) 
 
 <!--
 **FidelChe/FidelChe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
