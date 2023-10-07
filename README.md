@@ -1,4 +1,4 @@
-<h2> Mālō e lelei! Bula Vinaka! Talofa Lava! Namaste! Kia orāna! Fakalofa lahi atu! Mālo ni! Fakatalofa atu! Mauri! Halo ola keta! Halo olaketa! La Orana! Aloha! Kia ora! Kaselehlie! Ekamawir Omo! Noa'ia! Mālō te maʻuli! 👋 </h2>
+<h2> Greetings! Mālō e lelei! Bula Vinaka! Talofa Lava! Namaste! Kia orāna! Fakalofa lahi atu! Mālo ni! Fakatalofa atu! Mauri! Halo ola keta! Halo olaketa! La Orana! Aloha! Kia ora! Kaselehlie! Ekamawir Omo! Noa'ia! Mālō te maʻuli! 👋 </h2>
     
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
