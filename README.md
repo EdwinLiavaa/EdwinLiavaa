@@ -9,7 +9,7 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | Geomatics
 
-# My Blog
+### My Blog
 * Visit [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
 #### GitHub Stats 📊
