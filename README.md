@@ -1,4 +1,4 @@
-<h2> Greetings! Mālō e lelei! Bula Vinaka! Talofa Lava! Namaste! Kia orāna! Fakalofa lahi atu! Mālo ni! Fakatalofa atu! Mauri! Halo ola keta! La Orana! Aloha! Kia ora! Kaselehlie! Ekamawir Omo! Noa'ia! Mālō te maʻuli! </h2>
+<h2> Greetings! Mālō e lelei! Bula Vinaka! Talofa Lava! Namaste! Kia orāna! Fakalofa lahi atu! Mālo ni! Fakatalofa atu! Mauri! Halo ola keta! La Orana! Aloha! Kia ora! Kaselehlie! Ran annim! Len wo! Mogethin! Ekamawir Omo! Noa'ia! Mālō te maʻuli! </h2>
 
 <h3> I'm Edwin Liava'a, your Pacific Islands Partner 👋 </h3>
     
