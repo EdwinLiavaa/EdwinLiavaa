@@ -9,11 +9,14 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics
 
-### My Blog
+### Blog
 * Visit [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
-### My Whitepaper
+### Whitepaper
 * I'm excited to share that my whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus is now available on [ResearchGate](https://www.researchgate.net/publication/380904006_Decentralized_Micro-Governance_Model_for_the_Kingdom_of_Tonga_Based_on_Proof-of-Work_Consensus).
+
+### PasifikaOS
+* Check out [PasifikaOS](https://github.com/EdwinLiavaa/pasifikaos)
 
 #### GitHub Stats 📊
 
