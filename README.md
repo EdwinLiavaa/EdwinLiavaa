@@ -1,6 +1,6 @@
 <h2> Greetings! Mālō e lelei! Bula Vinaka! Talofa Lava! Namaste! Kia orāna! Fakalofa lahi atu! Mālo ni! Fakatalofa atu! Mauri! Halo ola keta! La Orana! Aloha! Kia ora! Kaselehlie! Ran annim! Len wo! Mogethin! Ekamawir Omo! Noa'ia! Mālō te maʻuli! </h2>
 
-<h3> I'm Edwin Liava'a, your Pacific Islands Partner 👋 </h3>
+<h3> I am Edwin Liava'a, your Pacific Islands Partner 👋 </h3>
     
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
@@ -14,7 +14,6 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ### Whitepaper
 * Check out my Whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus [here](https://github.com/EdwinLiavaa/Whitepaper).
-* I'm also excited to share that my Whitepaper is also available on [ResearchGate](https://www.researchgate.net/publication/380904006_Decentralized_Micro-Governance_Model_for_the_Kingdom_of_Tonga_Based_on_Proof-of-Work_Consensus).
 
 ### PasifikaOS
 * Check out [PasifikaOS](https://github.com/EdwinLiavaa/pasifikaos)
