@@ -11,7 +11,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 * Visit [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
 ### Smart Contract Security Research
-* Check out my [Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
+* Check out my [Cyfrin Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
   
 ### Whitepaper
 * Check out my Whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus [here](https://github.com/EdwinLiavaa/Whitepaper).
