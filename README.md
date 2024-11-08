@@ -8,7 +8,7 @@
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
 ### Blog
-* Visit [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
+* Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
 ### Smart Contract Security Research
 * Check out my [Cyfrin Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
