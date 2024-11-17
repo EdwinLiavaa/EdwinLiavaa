@@ -4,8 +4,8 @@
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EdwinLiavaa)
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
-[![Edwin Liava'a HackerNoon](![Static Badge](https://img.shields.io/badge/HACKERNOON-lightgreen?style=for-the-badge)](https://hackernoon.com/u/edwinliavaa)
-[![Edwin Liava'a Codeium](![Static Badge](https://img.shields.io/badge/CODEIUM-darkgreen?style=for-the-badge)](https://codeium.com/profile/edwinliavaa)
+[![Edwin Liava'a HackerNoon](https://img.shields.io/badge/HACKERNOON-lightgreen?style=for-the-badge)](https://hackernoon.com/u/edwinliavaa)
+[![Edwin Liava'a Codeium](https://img.shields.io/badge/CODEIUM-darkgreen?style=for-the-badge)](https://codeium.com/profile/edwinliavaa)
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
