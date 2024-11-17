@@ -7,6 +7,7 @@
 [![Edwin Liava'a HackerNoon](https://img.shields.io/badge/HACKERNOON-green?style=for-the-badge)](https://hackernoon.com/u/edwinliavaa)
 [![Edwin Liava'a Codeium](https://img.shields.io/badge/CODEIUM-darkgreen?style=for-the-badge)](https://codeium.com/profile/edwinliavaa)
 [![Edwin Liava'a ResearchGate](https://img.shields.io/badge/RESEARCHGATE-cyan?style=for-the-badge)](https://www.researchgate.net/profile/Edwin-Liavaa)
+[![Edwin Liava'a OSGeo](https://img.shields.io/badge/OSGEO-bluegreen?style=for-the-badge)](https://www.osgeo.org/member/liavaa/)
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
