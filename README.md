@@ -20,10 +20,11 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 ### Whitepaper
 * Check out my Whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus [here](https://github.com/EdwinLiavaa/Whitepaper).
 
+### FOSS4G
+* Check out [Open-Sourcing Decades of GIS Innovation](https://github.com/EdwinLiavaa/pacific-utilities-gis)
+
 ### PasifikaOS
 * Check out [PasifikaOS](https://github.com/EdwinLiavaa/pasifikaos)
-
-#
 
 ### GitHub Stats 📊
 
