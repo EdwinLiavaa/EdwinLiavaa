@@ -1,12 +1,12 @@
 <h1> Welcome!</h1>
   
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
-[![Edwin Liava'a X](https://img.shields.io/badge/X%20-%20black?style=for-the-badge)](https://twitter.com/EdwinLiavaa)
+[![Edwin Liava'a Twitter](![Static Badge](https://img.shields.io/badge/Twitter%20-%20black?style=for-the-badge&logo=X))](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EdwinLiavaa)
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
 [![Edwin Liava'a HackerNoon](https://img.shields.io/badge/HACKERNOON-green?style=for-the-badge)](https://hackernoon.com/u/edwinliavaa)
 [![Edwin Liava'a Codeium](https://img.shields.io/badge/CODEIUM-darkgreen?style=for-the-badge)](https://codeium.com/profile/edwinliavaa)
-[![Edwin Liava'a ResearchGate](https://img.shields.io/badge/RESEARCHGATE-cyan?style=for-the-badge)](https://www.researchgate.net/profile/Edwin-Liavaa)
+<!--[![Edwin Liava'a ResearchGate](https://img.shields.io/badge/RESEARCHGATE-cyan?style=for-the-badge)](https://www.researchgate.net/profile/Edwin-Liavaa) -->
 [![Edwin Liava'a OSGeo](https://img.shields.io/badge/OSGEO-bluegreen?style=for-the-badge)](https://www.osgeo.org/member/liavaa/)
 [![Edwin Liava'a Web3 Talents](https://img.shields.io/badge/Web3%20Talents%20-%20purple?style=for-the-badge)](https://web3-talents.io/dlttalents/dlt-talents-mentor-edwin-liavaa/)
 
