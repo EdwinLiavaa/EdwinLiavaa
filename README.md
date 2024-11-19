@@ -1,7 +1,7 @@
 <h1> Welcome!</h1>
   
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
-[![Edwin Liava'a Twitter](![Static Badge](https://img.shields.io/badge/Twitter%20-%20black?style=for-the-badge&logo=X))](https://twitter.com/EdwinLiavaa)
+[![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter%20-%20black?style=for-the-badge&logo=X)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EdwinLiavaa)
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
 [![Edwin Liava'a HackerNoon](https://img.shields.io/badge/HACKERNOON-green?style=for-the-badge)](https://hackernoon.com/u/edwinliavaa)
