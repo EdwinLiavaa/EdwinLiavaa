@@ -27,4 +27,6 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ### GitHub Stats 📊
 
+![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=great-gatsby_icons=true)
+
 [![Edwin Liava'a GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa)](https://github.com/anuraghazra/github-readme-stats) 
