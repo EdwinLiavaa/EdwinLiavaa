@@ -7,7 +7,7 @@
 [![Edwin Liava'a HashNode](https://img.shields.io/badge/Hashnode%20-blue?style=for-the-badge&logo=Hashnode)](https://hashnode.com/@EdwinLiavaa)
 [![Edwin Liava'a Codeium](https://img.shields.io/badge/Codeium%20-%20darkgreen?style=for-the-badge&logo=Codeium)](https://codeium.com/profile/edwinliavaa)
 [![Edwin Liava'a OSGeo](https://img.shields.io/badge/OSGeo%20-%20bluegreen?style=for-the-badge&logo=OSGeo)](https://www.osgeo.org/member/liavaa/)
-[![Edwin Liava'a YouTube](https://img.shields.io/badge/Ytube%20-red?style=for-the-badge&logo=Youtube)](https://www.youtube.com/@EdwinLiavaa)
+[![Edwin Liava'a YouTube](https://img.shields.io/badge/%20-red?style=for-the-badge&logo=Youtube)](https://www.youtube.com/@EdwinLiavaa)
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
