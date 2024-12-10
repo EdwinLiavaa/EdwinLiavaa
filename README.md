@@ -11,6 +11,10 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
+### About
+* My Web3 Resume [here](https://github.com/EdwinLiavaa/web3-resume)
+* My Professional Portfolio [here](https://github.com/EdwinLiavaa/other-experiences)
+
 ### Blog
 * Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
