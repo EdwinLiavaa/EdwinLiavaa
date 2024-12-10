@@ -24,7 +24,7 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Developed solutions on Hedera, Ethereum, EVM chains and Chainlink oracles to showcase real-world applications
 
 ### Chief Technology Officer
-**PowerPlay.xyz** | May 2022 – Jun 2022
+**PowerPlay** | May 2022 – Jun 2022
 - Responsible for managing the overall web3 technology strategy and road-map for the blockchain gaming startup
 - Led engineering team to build performance, scalable and secure decentralized applications
 
