@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-A Smart Contract Security Researcher and Chainlink Developer Expert with over five years of Web3 development experience. As a Blockchain Engineer certified in [development](https://www.credential.net/cf7b13e2-5e6e-48e2-86b2-873e5a3af7e6) and [architecture](https://www.credential.net/f6023f97-521c-431c-983d-74fd95bd3b05), I've led innovative blockchain solutions across Ethereum, Hedera, Rootstock and EVM chains. My journey includes being a [Top Quality Project Chainlink Fall Hackathon Winner](https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain) and currently conducting advanced smart contract security research at [Cyfrin Updraft](https://profiles.cyfrin.io/u/edwinliavaa), specializing in auditing, fuzzing, and protocol protection.
+A Smart Contract Security Researcher and Chainlink Developer Expert with over five years of Web3 development experience. As a Blockchain Engineer certified in [development](https://www.credential.net/cf7b13e2-5e6e-48e2-86b2-873e5a3af7e6) and [architecture](https://www.credential.net/f6023f97-521c-431c-983d-74fd95bd3b05), I've led innovative blockchain solutions across Ethereum, Hedera, Rootstock and EVM chains. My journey includes being a [Top Quality Project Chainlink Fall Hackathon Winner](https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain) and currently conducting advanced smart contract security research at [Cyfrin Updraft](https://github.com/EdwinLiavaa/codehawks-security-portfolio), specializing in auditing, fuzzing, and protocol protection.
 
 ## Professional Experience
 
