@@ -7,7 +7,7 @@
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Professional Summary
-Experienced Geospatial Systems Analyst with over 15 years of expertise in developing innovative GIS solutions across the Pacific region. Specializing in geographic information systems, climate change adaptation, and utility infrastructure mapping.
+Experienced Geospatial Systems Analyst with over 20 years of expertise in developing innovative GIS solutions across the Pacific region. Specializing in geographic information systems, climate change adaptation, and utility infrastructure mapping.
 
 ### Professional Experience
 
