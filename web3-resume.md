@@ -29,8 +29,6 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Led engineering team to build performance, scalable and secure decentralized applications
 
 #### Continuing Education and Research
-
-##### Smart Contract Security Researcher
 **Cyfrin Updraft** | Nov 2023 – Present
 - Conducting advanced smart contract security research
 - Exploring smart contract auditing and best practices for writing secure and optimized protocols
