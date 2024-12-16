@@ -14,7 +14,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 ### About
 * My Web3 Resume [here](web3-resume.md)
 * My GIS Resume [here](gis-resume.md)
-* My Internet Telecommunications Resume [here](telecom-resume.md)
+* My Internet Telco Resume [here](telecom-resume.md)
 * My Professional Portfolio & Diverse Technology Experiences [here](professional-experiences.md)
 
 ### Blog
