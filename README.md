@@ -13,7 +13,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ### About
 * My Web3 Resume [here](web3-resume.md)
-* My Professional Portfolio [here](other-experiences.md)
+* My Other Experiences Portfolio [here](other-experiences.md)
 
 ### Blog
 * Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
