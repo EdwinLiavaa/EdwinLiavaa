@@ -67,3 +67,8 @@ Visionary technology leader with 30+ years of experience in digital transformati
 - Certified Blockchain Expert™
 - Certified Artificial Intelligence (AI) Expert
 - Multiple Google Cloud AI and Technology Certifications
+
+### Publications
+- [HackerNoon](https://hackernoon.com/u/edwinliavaa)
+- [HashNode](https://hashnode.com/@EdwinLiavaa)
+- [ResearchGate](https://www.researchgate.net/profile/Edwin-Liavaa)

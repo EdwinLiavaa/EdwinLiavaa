@@ -52,5 +52,9 @@ Experienced Geospatial Systems Analyst with over 15 years of expertise in develo
 - Utility Infrastructure Mapping
 
 ### Certifications
-- Multiple Google Cloud Training Certificates in Geospatial and AI Technologies
-- DLT Talents Certificate of Mentorship
+- Certificate of Appreciation, Humanitarian OpenStreetMap Team
+
+### Publications
+- [HackerNoon](https://hackernoon.com/u/edwinliavaa)
+- [HashNode](https://hashnode.com/@EdwinLiavaa)
+- [ResearchGate](https://www.researchgate.net/profile/Edwin-Liavaa)

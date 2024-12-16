@@ -85,3 +85,8 @@
 - Multiple Blockchain and AI Certifications
 - Google Cloud AI Training Certificates
 - DLT Talents Certificate of Mentorship
+
+### Publications
+- [HackerNoon](https://hackernoon.com/u/edwinliavaa)
+- [HashNode](https://hashnode.com/@EdwinLiavaa)
+- [ResearchGate](https://www.researchgate.net/profile/Edwin-Liavaa)
