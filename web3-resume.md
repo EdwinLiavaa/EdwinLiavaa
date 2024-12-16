@@ -1,5 +1,5 @@
 # Edwin Liava'a
-**Smart Contract Security Researcher**
+## Smart Contract Security Researcher
 
 - Email: edwin@liavaa.space
 - Phone: +6767760129

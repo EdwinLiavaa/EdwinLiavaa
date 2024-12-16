@@ -1,10 +1,10 @@
 # Edwin Liava'a
 ## Professional Portfolio & Diverse Technology Experiences
 
-**Email:** edwin@liavaa.space
-**Phone:** +6767760129
-**LinkedIn:** https://www.linkedin.com/in/edwin-liavaa/
-**GitHub:** https://github.com/EdwinLiavaa
+- Email: edwin@liavaa.space
+- Phone: +6767760129
+- LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
+- GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Professional Highlights
 

@@ -1,10 +1,10 @@
 # Edwin Liava'a
 ## Digital Connectivity & Telecommunications Expert
 
-**Email:** edwin@liavaa.space
-**Phone:** +6767760129
-**LinkedIn:** https://www.linkedin.com/in/edwin-liavaa/
-**GitHub:** https://github.com/EdwinLiavaa
+- Email: edwin@liavaa.space
+- Phone: +6767760129
+- LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
+- GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Professional Summary
 Visionary technology leader with 30+ years of experience in digital transformation, specializing in expanding connectivity across the Pacific. Expert in satellite communications, broadband networks, and digital infrastructure development.
