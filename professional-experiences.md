@@ -43,7 +43,7 @@
 - Developed solutions on Hedera, Ethereum, and EVM chains
 - Showcased real-world blockchain applications
 
-#### Chief Technology Officer, PowerPlay.xyz
+#### Chief Technology Officer, PowerPlay
 *May 2022 – Jun 2022*
 - Managed web3 technology strategy for blockchain gaming startup
 - Led engineering team in building secure, scalable decentralized applications
