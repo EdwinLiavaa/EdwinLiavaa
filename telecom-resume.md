@@ -7,7 +7,7 @@
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Professional Summary
-Visionary technology leader with 30+ years of experience in digital transformation, specializing in expanding connectivity across the Pacific. Expert in satellite communications, broadband networks, and digital infrastructure development.
+Visionary technology leader with 30+ years of experience in digital transformation, specializing in expanding connectivity across the Pacific. Expert in satellite communications, submarine fiber optic cable systems, broadband networks, and digital infrastructure development.
 
 ### Key Leadership Roles
 
