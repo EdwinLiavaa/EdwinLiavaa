@@ -28,11 +28,12 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Responsible for managing the overall web3 technology strategy and road-map for the blockchain gaming startup
 - Led engineering team to build performance, scalable and secure decentralized applications
 
-#### Continuing Education and Research
+#### Education and Continuous Research
 **Cyfrin Updraft** | Nov 2023 – Present
 - Conducting advanced smart contract security research
 - Exploring smart contract auditing and best practices for writing secure and optimized protocols
 - Specializing in fuzzing, invariant testing, and formal verification to identify bugs and protect Web3 protocols
+**Bachelor of Science (BSc) in Computing Science and Information Systems, University of the South Pacific** | Jan 2002 – Nov 2004
 
 ### Licenses & Certifications
 

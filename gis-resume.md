@@ -40,7 +40,7 @@ Experienced Geospatial Systems Analyst with over 20 years of expertise in develo
 - GIS Specialist Consultant, Avonsys (Nov 2006 – Mar 2007)
 
 ### Education
-- Master's in Geographical Information Systems (LUMA-GIS), Lund University
+- Postgraduate Master's candidate in Geographical Information Systems (LUMA-GIS), Lund University
 - BSc in Computing Science and Information Systems, University of the South Pacific
 
 ### Technical Skills

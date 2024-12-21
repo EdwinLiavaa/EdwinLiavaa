@@ -51,7 +51,6 @@ Visionary technology leader with decades of experience in digital transformation
 - Software Tech Supervisor, Tonga Electric Power Board (Jan 1992 – Nov 2001)
 
 ### Education
-- Master's in Geographical Information Systems, Lund University
 - BSc in Computing Science and Information Systems, University of the South Pacific
 
 ### Key Skills
@@ -62,11 +61,6 @@ Visionary technology leader with decades of experience in digital transformation
 - Policy Development
 - Stakeholder Engagement
 - Digital Transformation
-
-### Certifications
-- Certified Blockchain Expert™
-- Certified Artificial Intelligence (AI) Expert
-- Multiple Google Cloud AI and Technology Certifications
 
 ### Publications
 - [HackerNoon](https://hackernoon.com/u/edwinliavaa)

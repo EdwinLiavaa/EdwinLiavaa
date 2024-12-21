@@ -68,7 +68,6 @@
 
 ### Education & Continuous Learning
 - Smart Contract Security Researcher, Cyfrin Updraft (Nov 2023 – Present)
-- Master's in Geographical Information Systems, Lund University
 - BSc in Computing Science and Information Systems, University of the South Pacific
 
 ### Skills
