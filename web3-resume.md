@@ -33,6 +33,7 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Conducting advanced smart contract security research
 - Exploring smart contract auditing and best practices for writing secure and optimized protocols
 - Specializing in fuzzing, invariant testing, and formal verification to identify bugs and protect Web3 protocols
+
 **Bachelor of Science (BSc) in Computing Science and Information Systems, University of the South Pacific** | Jan 2002 – Nov 2004
 
 ### Licenses & Certifications
