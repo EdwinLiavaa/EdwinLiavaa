@@ -1,6 +1,6 @@
 <h1> Welcome!</h1>
   
-[![Edwin Liava'a Chainlink](https://img.shields.io/badge/Chianlink-blue?style=for-the-badge&logo=Chainlink)](https://chain.link/developers/experts) 
+[![Edwin Liava'a Chainlink](https://img.shields.io/badge/Chianlink-skyblue?style=for-the-badge&logo=Chainlink)](https://chain.link/developers/experts) 
 [![Edwin Liava'a Web3 Talents](https://img.shields.io/badge/Web3%20Talents-magenta?style=for-the-badge&logo=web3-talents)](https://web3-talents.io/dlttalents/dlt-talents-mentor-edwin-liavaa/) 
 [![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter%20-%20black?style=for-the-badge&logo=X)](https://twitter.com/EdwinLiavaa)
