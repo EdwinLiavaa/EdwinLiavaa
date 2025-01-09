@@ -25,8 +25,16 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 #### Chief Technology Officer
 **PowerPlay** | May 2022 – Jun 2022
-- Responsible for managing the overall web3 technology strategy and road-map for the blockchain gaming startup
 - Led engineering team to build performance, scalable and secure decentralized applications
+- Developed a Web3 protocol incentivizing renewable energy usage through smart contracts and tokenized rewards
+- Demonstrated ability to build complex systems solving real-world problems in the sustainable energy sector
+- Responsible for managing the overall web3 technology strategy and road-map for the blockchain gaming startup
+
+#### Satellite Blockchain Solutions Architect
+**Independent Projects** | 2021 – 2022
+- Architect the world's first satellite broadband service marketplace using blockchain and dynamic NFTs, demonstrating innovative integration of space technology with decentralized systems
+- Developed "space-based" nodes for Chainlink hybrid smart contracts on Kacific satellites (K2/K3 projects), creating a unique secure computing environment
+- Leveraged satellite infrastructure to enhance distributed oracle communication networks, pioneering new approaches to blockchain infrastructure
 
 #### Education and Continuous Research
 **Cyfrin Updraft** | Nov 2023 – Present
