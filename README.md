@@ -14,11 +14,11 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
 
-### About
-* My Web3 Portfolio [here](web3-resume.md)
-* My Geomatics | Geospatial | GIS Portfolio [here](gis-resume.md)
-* My Internet | Telco Portfolio [here](telecom-resume.md)
-* My Professional Portfolio & Diverse Technology Experiences [here](professional-experiences.md)
+### Portfolios
+* Web3 [here](web3-resume.md)
+* Geomatics | Geospatial | GIS [here](gis-resume.md)
+* Internet | Telco [here](telecom-resume.md)
+* Professional & Diverse Technology Experiences [here](professional-experiences.md)
 
 ### Blog
 * Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
