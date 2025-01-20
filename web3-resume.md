@@ -12,6 +12,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Professional Experience
 
+#### Web3 Bounty Writer
+**HackerNoon** | Jul 2024 – Present
+- Contributing to the Web3 ecosystem through creative and technical content writing
+- Creating engaging content focused on cryptography and blockchain technology
+- Addressing resistance to change through educational and thought-provoking articles
+- Combining technical expertise with creative writing to make complex topics accessible
+
 #### Rootstock Hacktivator Program Contributor
 **Rootstock (RSK)** | Dec 2024
 - Developing and submitting a pull request for deploying a Vyper Smart Contract to Rootstock (RSK) Testnet using Python
@@ -97,6 +104,8 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Community Building and Technology Advocacy
 - Python-based Blockchain Development
 - Vyper Smart Contract Programming
+- Creative Writing
+- Technical Content Writing
 
 ### Publications
 
