@@ -67,15 +67,21 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Volunteer Experiences
 
+#### Web3 Talent Mentor
+**Bitcoin Talents, Frankfurt School Blockchain Center** | Jan 2025 - Present
+- Mentoring Cohort 4 participants in blockchain and Bitcoin technology leadership development
+- Supporting the next generation of Web3 leaders through knowledge sharing and guidance
+- Empowering talent to drive innovation in the Bitcoin ecosystem
+
+#### Web3 Talent Mentor
+**DLT Talents, Frankfurt School Blockchain Center** | Sep 2022 - Jan 2024
+- Participated in an 18-week program focusing on career development in the blockchain ecosystem
+- Supported efforts to empower women as entrepreneurs, technologists, and innovators in the blockchain space
+
 #### Chainlink Developer Expert
 **Chainlink Labs** | Sep 2021 - Present
 - Serve as a smart contract and blockchain developer with deep experience building with Chainlink
 - Passionate about sharing technical knowledge and advancing blockchain technology
-
-#### Mentor
-**DLT Talents, Frankfurt School Blockchain Center** | Sep 2022 - Jan 2024
-- Participated in an 18-week program focusing on career development in the blockchain ecosystem
-- Supported efforts to empower women as entrepreneurs, technologists, and innovators in the blockchain space
 
 #### Chainlink Community Advocate
 **Chainlink Labs** | May 2022 - Aug 2022
