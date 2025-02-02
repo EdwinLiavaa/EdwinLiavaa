@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## Digital Connectivity & Telecommunications Expert
+## Digital Connectivity & Transformation Expert
 
 - Email: edwin@liavaa.space
 - Phone: +6767760129

@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## GIS Specialist & Geospatial Systems Expert
+## GIS Specialist & Geospatial Systems developer
 
 - Email: edwin@liavaa.space
 - Phone: +6767760129
