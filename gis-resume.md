@@ -11,6 +11,13 @@ Experienced Geospatial Systems Analyst/Developer with over 20 years of expertise
 
 ### Professional Experience
 
+#### GIS Team Leader, Kahuto Pacific
+*Feb 2025 – Present*
+- Oversee the development, implementation, and management of Geographic Information System (GIS) projects within the Moana Database.
+- Lead the team in pioneering the Pacific's first comprehensive geospatial data platform, delivering high-quality LiDAR and imagery data through an intuitive cloud-based portal.
+- Empower sustainable development across Pacific Island communities by providing accessible and actionable geospatial data.
+- Collaborate with stakeholders to ensure the platform meets the needs of governments, utilities, and development organizations.
+
 #### GIS Specialist, OCA GLOBAL
 *Dec 2023 – Present*
 - Developed disaster risk reduction policies and frameworks for electric utilities in Federated States of Micronesia
