@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## Bitcoin & Web3 Researcher
+## A Smart Contract Security Researcher
 
 - Email: edwin@liavaa.space
 - Phone: +6767760129
