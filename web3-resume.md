@@ -24,6 +24,7 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Developing and submitting a pull request for deploying a Vyper Smart Contract to Rootstock (RSK) Testnet using Python
 - Advancing blockchain interoperability and demonstrating cross-chain smart contract deployment techniques
 - Contributing to the expansion of development tools and resources in the Rootstock ecosystem
+- [Vyper Starter Kit repository on Rootstock](https://dev.rootstock.io/developers/quickstart/rootstock-vyper/)
 
 #### Web3 Developer Evangelist
 **CheSpatial** | Dec 2022 – Apr 2023
