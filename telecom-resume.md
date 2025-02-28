@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## Digital Connectivity & Transformation Expert
+## Digital Connectivity & Transformation Engineer
 
 - Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)

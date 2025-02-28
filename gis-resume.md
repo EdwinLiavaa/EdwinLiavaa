@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## GIS Specialist & Geospatial Systems developer
+## Geospatial Engineer
 
 - Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
