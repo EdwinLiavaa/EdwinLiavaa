@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## A Smart Contract Security Researcher
+## A Smart Contract Security Researcher & Chainlink Developer Expert
 
 - Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
