@@ -12,7 +12,7 @@
 [![Edwin Liava'a OSGeo](https://img.shields.io/badge/OSGeo%20-%20bluegreen?style=for-the-badge&logo=OSGeo)](https://www.osgeo.org/member/liavaa/)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/Youtube%20-%20red?style=for-the-badge&logo=Youtube)](https://www.youtube.com/@EdwinLiavaa)
 
-Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Web3 Bounty Writer
+Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Bounty Writer
 
 ### Portfolios
 * Web3 [here](web3-resume.md)
