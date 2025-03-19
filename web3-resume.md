@@ -1,5 +1,5 @@
 # Edwin Liava'a
-## Blockchain Engineer
+## Web3 Bounty Writer
 
 - Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
