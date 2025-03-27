@@ -24,7 +24,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 * Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
 ### Rootstock Hacktivator Program Contributor
-* [Vyper Starter Kit repository on Rootstock](https://dev.rootstock.io/developers/quickstart/rootstock-vyper/)
+* Check out my contribution to the [Vyper Starter Kit repository on Rootstock](https://dev.rootstock.io/developers/quickstart/rootstock-vyper/)
 
 ### Smart Contract Security Research
 * Check out my [Cyfrin Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
