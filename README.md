@@ -10,8 +10,8 @@
 [![Edwin Liava'a Codeium](https://img.shields.io/badge/Codeium%20-%20darkgreen?style=for-the-badge&logo=Codeium)](https://codeium.com/profile/edwinliavaa)
 [![Edwin Liava'a OSGeo](https://img.shields.io/badge/OSGeo%20-%20bluegreen?style=for-the-badge&logo=OSGeo)](https://www.osgeo.org/member/liavaa/)
 [![Edwin Liava'a YouTube](https://img.shields.io/badge/Youtube%20-%20red?style=for-the-badge&logo=Youtube)](https://www.youtube.com/@EdwinLiavaa)
-[![Edwin Liava'a Bitcoin Talents](https://img.shields.io/badge/bitcoin%20talents-yellow?style=for-the-badge&logo=Bitcoin%20Talents)](https://web3-talents.io/btctalents/btcmentors/bitcoin-talents-mentor-edwin-liavaa/) 
-[![Edwin Liava'a DLT Talents](https://img.shields.io/badge/dlt%20talents-magenta?style=for-the-badge&logo=DLT%20Talents)](https://web3-talents.io/dlttalents/dlt-talents-mentor-edwin-liavaa/) 
+[![Edwin Liava'a Bitcoin Talents](https://img.shields.io/badge/bitcoin%20talents-yellow?style=for-the-badge&logo=Bitcoin)](https://web3-talents.io/btctalents/btcmentors/bitcoin-talents-mentor-edwin-liavaa/) 
+[![Edwin Liava'a DLT Talents](https://img.shields.io/badge/dlt%20talents-magenta?style=for-the-badge&logo=Bitcoin)](https://web3-talents.io/dlttalents/dlt-talents-mentor-edwin-liavaa/) 
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Bounty Writer
 
