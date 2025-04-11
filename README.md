@@ -3,7 +3,7 @@
 [![Edwin Liava'a HackerNoon](https://img.shields.io/badge/Hackernoon%20-%20green?style=for-the-badge&logo=Hackernoon)](https://hackernoon.com/u/edwinliavaa)
 [![Edwin Liava'a ResearchGate](https://img.shields.io/badge/ResearchGate%20-%20aqua?style=for-the-badge&logo=ResearchGate)](https://www.researchgate.net/profile/Edwin-Liavaa)
 [![Edwin Liava'a HashNode](https://img.shields.io/badge/Hashnode%20-skyblue?style=for-the-badge&logo=Hashnode)](https://hashnode.com/@EdwinLiavaa)
-[![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edwin-liavaa/) 
+[![Edwin Liava'a Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Edwin Liava'a Twitter](https://img.shields.io/badge/Twitter%20-%20black?style=for-the-badge&logo=X)](https://twitter.com/EdwinLiavaa)
 [![Edwin Liava'a Chainlink](https://img.shields.io/badge/Chianlink-6495ED?style=for-the-badge&logo=Chainlink)](https://chain.link/developers/experts) 
 [![Edwin Liava'a Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
