@@ -1,7 +1,7 @@
 # Edwin Liava'a
 ## Geospatial Engineer
 
-- Email: edwin@liavaa.space
+- Email: edwin@pasifika.xyz 
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 

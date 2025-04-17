@@ -1,20 +1,27 @@
 # Edwin Liava'a
-## Blockchain Engineer
+## Blockchain & AI Engineer
 
-- Email: edwin@liavaa.space
+- Email: edwin@pasifika.xyz
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Executive Summary
 
-A Smart Contract Security Researcher and Chainlink Developer Expert with over five years of Web3 development experience. As a Blockchain Engineer certified in [development](https://www.credential.net/cf7b13e2-5e6e-48e2-86b2-873e5a3af7e6) and [architecture](https://www.credential.net/f6023f97-521c-431c-983d-74fd95bd3b05), I've led innovative blockchain solutions across Ethereum, Hedera, Rootstock and EVM chains. My journey includes being a [Top Quality Project Chainlink Fall Hackathon Winner](https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain) and currently conducting advanced smart contract security research at [Cyfrin Updraft](https://github.com/EdwinLiavaa/codehawks-security-portfolio), specializing in auditing, fuzzing, and protocol protection.
+A Smart Contract Security Researcher and Chainlink Developer Expert with over five years of Web3 development experience and growing expertise in AI integration. As a Blockchain Engineer certified in [development](https://www.credential.net/cf7b13e2-5e6e-48e2-86b2-873e5a3af7e6), [architecture](https://www.credential.net/f6023f97-521c-431c-983d-74fd95bd3b05), Certified Artificial Intelligence (AI) [Developer](https://www.credential.net/89e7b64f-d6e0-4444-94b5-4c6a03a359fc) and [Expert](https://www.credential.net/d85a2b3a-5f1f-4df7-953d-f3aec1125377), I've led innovative blockchain solutions across Ethereum, Hedera, Rootstock and EVM chains. My journey includes being a [Top Quality Project Chainlink Fall Hackathon Winner](https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain), developing AI-powered blockchain solutions, and currently conducting advanced smart contract security research with [Cyfrin Updraft](https://github.com/EdwinLiavaa/codehawks-security-portfolio), specializing in auditing, fuzzing, and protocol protection.
 
 ### Professional Experience
+
+#### Web3 & AI Integration Specialist
+**Freelance** | Jan 2025 – Present
+- Developing hybrid solutions that combine AI capabilities with blockchain infrastructure
+- Creating smart contracts that leverage machine learning models for dynamic decision-making
+- Implementing AI-powered analytical tools for blockchain data interpretation and pattern recognition
+- Exploring synergies between decentralized technologies and artificial intelligence
 
 #### Web3 Bounty Writer
 **HackerNoon** | Jul 2024 – Present
 - Contributing to the Web3 ecosystem through creative and technical content writing
-- Creating engaging content focused on cryptography and blockchain technology
+- Creating engaging content focused on cryptography, AI, and blockchain technology
 - Addressing resistance to change through educational and thought-provoking articles
 - Combining technical expertise with creative writing to make complex topics accessible
 
@@ -27,7 +34,7 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 #### Web3 Developer Evangelist
 **CheSpatial** | Dec 2022 – Apr 2023
-- Led advocacy, awareness building and capacity development on decentralized technologies including blockchain, AI and machine learning across the Pacific region
+- Led advocacy, awareness building and capacity development on decentralized technologies including blockchain across the Pacific region
 - Developed solutions on Hedera, Ethereum, EVM chains and Chainlink oracles to showcase real-world applications
 
 #### Chief Technology Officer
@@ -48,11 +55,31 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Conducting advanced smart contract security research
 - Exploring smart contract auditing and best practices for writing secure and optimized protocols
 - Specializing in fuzzing, invariant testing, and formal verification to identify bugs and protect Web3 protocols
+- Researching AI applications in vulnerability detection and automated security auditing
+
+**AI for Blockchain Applications** | Jan 2023 – Present
+- Self-directed research into machine learning applications for blockchain optimization
+- Exploring neural networks for transaction pattern analysis and anomaly detection
+- Studying reinforcement learning for adaptive smart contract behavior
 
 **Bachelor of Science (BSc) in Computing Science and Information Systems, University of the South Pacific** | Jan 2002 – Nov 2004
 
 ### Licenses & Certifications
 
+- Certified Artificial Intelligence (AI) Expert - Blockchain Council
+- Certified Artificial Intelligence (AI) Developer - Blockchain Council
+- Introduction to Large Language Models - Google Cloud Skills Boost
+- Introduction to Generative AI - Google Cloud Skills Boost
+- Attention Mechanism - Google Cloud Skills Boost
+- Transformer Models and BERT Model - Google Cloud Skills Boost
+- Introduction to Responsible AI - Google Cloud Skills Boost
+- Generative AI Fundamentals - Google Cloud Skills Boost
+- Introduction to Image Generation - Google Cloud Skills Boost
+- Create Image Captioning Models - Google Cloud Skills Boost
+- Encoder-Decoder Architecture - Google Cloud Skills Boost
+- Introduction to Generative AI Studio - Google Cloud Skills Boost
+- Generative AI Explorer - Vertex - Google Cloud Skills Boost
+- Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Cyfrin Updraft
 - Certified Blockchain Expert™ – Blockchain Council
 - Certified Blockchain Developer™ – Blockchain Council
 - Certified Blockchain Architect™ – Blockchain Council
@@ -67,13 +94,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Volunteer Experiences
 
-#### Web3 Talent Mentor
+#### Web3 Talents Mentor
 **Bitcoin Talents, Frankfurt School Blockchain Center** | Jan 2025 - Present
-- Mentoring Cohort 4 participants in blockchain and Bitcoin technology leadership development
+- Mentoring Cohort 4 participants in blockchain, AI integration, and Bitcoin technology leadership development
 - Supporting the next generation of Web3 leaders through knowledge sharing and guidance
-- Empowering talent to drive innovation in the Bitcoin ecosystem
+- Empowering talent to drive innovation in the Bitcoin ecosystem with AI-enhanced applications
 
-#### Web3 Talent Mentor
+#### Web3 Talents Mentor
 **DLT Talents, Frankfurt School Blockchain Center** | Sep 2022 - Jan 2024
 - Participated in an 18-week program focusing on career development in the blockchain ecosystem
 - Supported efforts to empower women as entrepreneurs, technologists, and innovators in the blockchain space
@@ -82,6 +109,7 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 **Chainlink Labs** | Sep 2021 - Present
 - Serve as a smart contract and blockchain developer with deep experience building with Chainlink
 - Passionate about sharing technical knowledge and advancing blockchain technology
+- Exploring AI oracle integration for enhanced data reliability and prediction markets
 
 #### Chainlink Community Advocate
 **Chainlink Labs** | May 2022 - Aug 2022
@@ -100,6 +128,14 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Technical Skills
 
+- Artificial Intelligence & Machine Learning
+- Natural Language Processing
+- Neural Networks & Deep Learning
+- AI Model Deployment
+- Predictive Analytics
+- Computer Vision Applications
+- Azure AI Services
+- TensorFlow & PyTorch
 - Blockchain Platforms: Ethereum, Hedera, Rootstock, EVM Chains
 - Smart Contract Development
 - Chainlink Oracles
