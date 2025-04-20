@@ -15,6 +15,10 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Bounty Writer
 
+### GitHub Stats 📊
+
+![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=darcula_icons=true)
+
 ### Portfolios
 * Web3 & AI [here](web3-ai-resume.md)
 * Geomatics | Geospatial | GIS [here](gis-resume.md)
@@ -39,6 +43,3 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 ### PasifikaOS
 * Check out [PasifikaOS](https://github.com/EdwinLiavaa/pasifikaos)
 
-### GitHub Stats 📊
-
-![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=darcula_icons=true)
