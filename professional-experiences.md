@@ -7,8 +7,15 @@
 
 ### Professional Highlights
 
+#### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
+*Apr 2025 – Present*
+- Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) specifically designed for Pacific Island communities
+- Engineered a platform using the native PASIFIKA token (PSF) built on Linea's zkEVM Layer-2 solution
+- Evaluated multiple blockchain platforms for production including EVM solutions (Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM) and Bitcoin-Native solutions (RootStock, Internet Computer)
+- Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islanders
+
 #### GIS Team Leader, Kahuto Pacific
-*Feb 2025 – Present*
+*Feb 2025 – March 2025*
 - Oversee the development, implementation, and management of Geographic Information System (GIS) projects within the Moana Database.
 - Lead the team in pioneering the Pacific's first comprehensive geospatial data platform, delivering high-quality LiDAR and imagery data through an intuitive cloud-based portal.
 - Empower sustainable development across Pacific Island communities by providing accessible and actionable geospatial data.
