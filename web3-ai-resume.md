@@ -11,6 +11,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Professional Experience
 
+#### Founder & Full Stack Developer
+**Pasifika Web3 Tech Hub (pasifika.xyz)** | Apr 2025 – Present
+- Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) designed specifically for Pacific Island communities
+- Engineered the platform using the native PASIFIKA token (PSF) and built the Proof of Concept (POC) on Linea's zkEVM Layer-2 solution
+- Evaluated alternative platforms for production including EVM solutions (Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM) and Bitcoin-Native solutions (RootStock, Internet Computer)
+- Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islander communities
+
 #### Web3 & AI Integration Specialist
 **Freelance** | Jan 2025 – Present
 - Developing hybrid solutions that combine AI capabilities with blockchain infrastructure

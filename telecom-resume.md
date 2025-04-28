@@ -10,6 +10,13 @@ Visionary technology leader with decades of experience in digital transformation
 
 ### Key Leadership Roles
 
+#### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
+*Apr 2025 – Present*
+- Founded a pioneering decentralized physical infrastructure network (DePIN) specifically designed to enhance digital connectivity across Pacific Island communities
+- Architected a platform leveraging Web3 technology to create sustainable digital infrastructure for underserved island regions
+- Evaluated and implemented solutions across multiple blockchain platforms to ensure optimal performance and accessibility
+- Created new digital opportunities for Pacific Islanders through innovative technological infrastructure that respects and preserves cultural heritage
+
 #### Satellite Communication Consultant, Dialectica
 *Oct 2024 – Present*
 - Providing independent consultancy in Satellite Communication Market

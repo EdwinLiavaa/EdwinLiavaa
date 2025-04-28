@@ -10,6 +10,13 @@ Experienced Geospatial Systems Analyst/Developer with over 20 years of expertise
 
 ### Professional Experience
 
+#### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
+*Apr 2025 – Present*
+- Founded a groundbreaking decentralized physical infrastructure network (DePIN) for Pacific Island communities that incorporates geospatial mapping for infrastructure development
+- Designed systems that leverage location-based data to optimize resource distribution across island communities
+- Integrated geospatial components to create a digital representation of cultural heritage sites and community resources
+- Developed mapping interfaces that help visualize economic opportunities and infrastructure needs across Pacific Islands
+
 #### GIS Team Leader, Kahuto Pacific
 *Feb 2025 – Present*
 - Oversee the development, implementation, and management of Geographic Information System (GIS) projects within the Moana Database.
