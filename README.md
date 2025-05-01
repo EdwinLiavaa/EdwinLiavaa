@@ -19,7 +19,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=darcula_icons=true)
 
-### Portfolios
+### Portfolios - Resumes (CVs)
 * Web3 & AI [here](web3-ai-resume.md)
 * Geomatics | Geospatial | GIS [here](gis-resume.md)
 * Internet | Telco [here](telecom-resume.md)
