@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Liava'a - Web3 & AI Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Pasifika Web3 Tech Hub - Theme Variables */
+        :root {
+            /* Primary Colors */
+            --primary-color: #333333;     /* Dark Grey */
+            --secondary-color: #444444;   /* Medium Grey */
+            --accent-color: #FF5722;      /* Orange */
+            
+            /* Color Palette */
+            --dark-grey: #333333;         /* Dark Grey */
+            --medium-grey: #444444;       /* Medium Grey */
+            --light-grey: #f8f8f8;        /* Light Grey */
+            --orange: #FF5722;            /* Orange */
+            --orange-light: #FF9800;      /* Light Orange */
+            --white: #FFFFFF;             /* White */
+            
+            /* UI Colors */
+            --light-text: #FFFFFF;        /* White */
+            --dark-text: #333333;         /* Dark Grey */
+            --background: #FFFFFF;        /* White */
+            --card-bg: #f8f8f8;           /* Light Grey */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--background);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: var(--white);
+        }
+        
+        header {
+            padding: 30px 0;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+            color: var(--dark-grey);
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: var(--dark-grey);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--dark-grey);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin: 30px 0 15px;
+            font-weight: 600;
+        }
+        
+        h4 {
+            font-size: 1.2rem;
+            margin: 20px 0 5px;
+            color: var(--dark-grey);
+            font-weight: 600;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            color: var(--dark-grey);
+        }
+        
+        .company {
+            font-weight: 600;
+            color: var(--orange);
+            margin-bottom: 5px;
+        }
+        
+        .period {
+            font-style: italic;
+            color: var(--medium-grey);
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: var(--orange);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-info li {
+            list-style: none;
+            margin-right: 20px;
+        }
+        
+        .executive-summary {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: var(--light-grey);
+            border-left: 3px solid var(--accent-color);
+            border-radius: 4px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .experience-item {
+            margin-bottom: 25px;
+        }
+        
+        .highlight {
+            background: linear-gradient(to right, var(--orange), var(--orange-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .skill {
+            background: var(--light-grey);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--dark-grey);
+        }
+        
+        .award {
+            margin-bottom: 15px;
+        }
+        
+        .award-title {
+            font-weight: 600;
+            color: var(--dark-grey);
+        }
+        
+        .award-details {
+            margin-left: 20px;
+        }
+        
+        .section-break {
+            page-break-before: always;
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                font-size: 12pt;
+                line-height: 1.5;
+                background: #fff;
+                color: #000;
+            }
+            
+            .container {
+                width: 100%;
+                max-width: 100%;
+                padding: 0 10mm;
+                margin: 0;
+                box-shadow: none;
+            }
+            
+            h1, h2, h3, h4 {
+                page-break-after: avoid;
+            }
+            
+            ul, ol, li, p {
+                page-break-inside: avoid;
+            }
+            
+            header {
+                padding: 10mm 0 5mm;
+            }
+            
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            
+            .highlight {
+                background: none;
+                -webkit-text-fill-color: #000;
+                font-weight: bold;
+            }
+            
+            .no-print {
+                display: none;
+            }
+            
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Edwin Liava'a</h1>
+            <h2>Blockchain & <span class="highlight">AI Engineer</span></h2>
+            
+            <ul class="contact-info">
+                <li>Email: edwin@pasifika.xyz</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/edwin-liavaa/">edwin-liavaa</a></li>
+                <li>GitHub: <a href="https://github.com/EdwinLiavaa">EdwinLiavaa</a></li>
+            </ul>
+        </header>
+        
+        <section class="section">
+            <h3>Executive Summary</h3>
+            <div class="executive-summary">
+                <p>A Smart Contract Security Researcher and Chainlink Developer Expert with over five years of Web3 development experience and growing expertise in AI integration. As a Blockchain Engineer certified in <a href="https://www.credential.net/cf7b13e2-5e6e-48e2-86b2-873e5a3af7e6">Development</a>, <a href="https://www.credential.net/f6023f97-521c-431c-983d-74fd95bd3b05">Architecture</a>, Certified Artificial Intelligence (AI) <a href="https://www.credential.net/89e7b64f-d6e0-4444-94b5-4c6a03a359fc">Developer</a> and <a href="https://www.credential.net/d85a2b3a-5f1f-4df7-953d-f3aec1125377">Expert</a>, I've led innovative blockchain solutions across Ethereum, Hedera, Rootstock and EVM chains. My journey includes being a <a href="https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain">Top Quality Project Chainlink Fall Hackathon Winner</a>, developing AI-powered blockchain solutions, and currently conducting advanced smart contract security research with <a href="https://github.com/EdwinLiavaa/codehawks-security-portfolio">Cyfrin Updraft</a>, specializing in auditing, fuzzing, and protocol protection.</p>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h3>Professional Experience</h3>
+            
+            <div class="experience-item">
+                <h4>Founder & Full Stack Developer</h4>
+                <div class="company">Pasifika Web3 Tech Hub (pasifika.xyz)</div>
+                <div class="period">Apr 2025 – Present</div>
+                <ul>
+                    <li>Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) designed specifically for Pacific Island communities</li>
+                    <li>Engineered the platform using the native PASIFIKA token (PSF) and built the Proof of Concept (POC) on Linea's zkEVM Layer-2 solution</li>
+                    <li>Evaluated alternative platforms for production including EVM solutions (Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM) and Bitcoin-Native solutions (RootStock, Internet Computer)</li>
+                    <li>Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islander communities</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Web3 & AI Integration Specialist</h4>
+                <div class="company">Freelance</div>
+                <div class="period">Jan 2025 – Present</div>
+                <ul>
+                    <li>Developing hybrid solutions that combine AI capabilities with blockchain infrastructure</li>
+                    <li>Creating smart contracts that leverage machine learning models for dynamic decision-making</li>
+                    <li>Implementing AI-powered analytical tools for blockchain data interpretation and pattern recognition</li>
+                    <li>Exploring synergies between decentralized technologies and artificial intelligence</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Web3 Bounty Writer</h4>
+                <div class="company">HackerNoon</div>
+                <div class="period">Jul 2024 – Present</div>
+                <ul>
+                    <li>Contributing to the Web3 ecosystem through creative and technical content writing</li>
+                    <li>Creating engaging content focused on cryptography, AI, and blockchain technology</li>
+                    <li>Addressing resistance to change through educational and thought-provoking articles</li>
+                    <li>Combining technical expertise with creative writing to make complex topics accessible</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Rootstock Hacktivator Program Contributor</h4>
+                <div class="company">Rootstock (RSK)</div>
+                <div class="period">Dec 2024</div>
+                <ul>
+                    <li>Developing and submitting a pull request for deploying a Vyper Smart Contract to Rootstock (RSK) Testnet using Python</li>
+                    <li>Advancing blockchain interoperability and demonstrating cross-chain smart contract deployment techniques</li>
+                    <li>Contributing to the expansion of development tools and resources in the Rootstock ecosystem</li>
+                    <li><a href="https://dev.rootstock.io/developers/quickstart/rootstock-vyper/">Vyper Starter Kit repository on Rootstock</a></li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Web3 Developer Evangelist</h4>
+                <div class="company">CheSpatial</div>
+                <div class="period">Dec 2022 – Apr 2023</div>
+                <ul>
+                    <li>Led advocacy, awareness building and capacity development on decentralized technologies including blockchain across the Pacific region</li>
+                    <li>Developed solutions on Hedera, Ethereum, EVM chains and Chainlink oracles to showcase real-world applications</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Chief Technology Officer</h4>
+                <div class="company">PowerPlay</div>
+                <div class="period">May 2022 – Jun 2022</div>
+                <ul>
+                    <li>Led engineering team to build performance, scalable and secure decentralized applications</li>
+                    <li>Developed a Web3 protocol incentivizing renewable energy usage through smart contracts and tokenized rewards</li>
+                    <li>Responsible for managing the overall web3 technology strategy and road-map for the blockchain gaming startup</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Satellite Blockchain Solutions Architect</h4>
+                <div class="company">Independent Projects</div>
+                <div class="period">2021 – 2022</div>
+                <ul>
+                    <li>Architect the world's first satellite broadband service marketplace using blockchain and dynamic NFTs, demonstrating innovative integration of space technology with decentralized systems</li>
+                    <li>Designed a satellite broadband supply chain platform using smart contracts, Chainlink oracles, and blockchain technology to create a transparent, efficient, and reliable system for allocating satellite broadband services</li>
+                    <li>Implemented traceability of source to delivery services with smart contract auditing and authentication capabilities</li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="page-break"></div>
+
+        <section class="section">
+            <h3>Education</h3>
+            <p><strong>Bachelor of Science (BSc) in Computing Science and Information Systems, University of the South Pacific</strong> | Jan 2002 – Nov 2004</p>
+        </section>
+        
+        <section class="section">
+            <h3>Licenses & Certifications</h3>
+            <ul>
+                <li>Certified Artificial Intelligence (AI) Expert - Blockchain Council</li>
+                <li>Certified Artificial Intelligence (AI) Developer - Blockchain Council</li>
+                <li>Introduction to Large Language Models - Google Cloud Skills Boost</li>
+                <li>Introduction to Generative AI - Google Cloud Skills Boost</li>
+                <li>Attention Mechanism - Google Cloud Skills Boost</li>
+                <li>Transformer Models and BERT Model - Google Cloud Skills Boost</li>
+                <li>Introduction to Responsible AI - Google Cloud Skills Boost</li>
+                <li>Generative AI Fundamentals - Google Cloud Skills Boost</li>
+                <li>Introduction to Image Generation - Google Cloud Skills Boost</li>
+                <li>Create Image Captioning Models - Google Cloud Skills Boost</li>
+                <li>Encoder-Decoder Architecture - Google Cloud Skills Boost</li>
+                <li>Introduction to Generative AI Studio - Google Cloud Skills Boost</li>
+                <li>Generative AI Explorer - Vertex - Google Cloud Skills Boost</li>
+                <li>Blockchain Developer, Smart Contract, & Solidity Course - Powered By AI - Cyfrin Updraft</li>
+                <li>Certified Blockchain Expert™ – Blockchain Council</li>
+                <li>Certified Blockchain Developer™ – Blockchain Council</li>
+                <li>Certified Blockchain Architect™ – Blockchain Council</li>
+                <li>Smart Contract Developer Bootcamp 2021 – Chainlink Labs</li>
+                <li>2022 Chainlink Solana Developer Bootcamp – Chainlink Labs</li>
+                <li>Chainlink Fall Hackathon 2021 – Engineer – Devpost</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h3>Awards</h3>
+            <div class="award">
+                <div class="award-title">Chainlink Fall Hackathon 2021 – Top Quality Project Winner</div>
+                <div class="award-details">Blockchain/Chainlink: Satellite Broadband Service Chain – Mint Satellite Broadband NFTs</div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h3>Volunteer Experiences</h3>
+            
+            <div class="experience-item">
+                <h4>Web3 Talents Mentor</h4>
+                <div class="company">Bitcoin Talents, Frankfurt School Blockchain Center</div>
+                <div class="period">Jan 2025 - Present</div>
+                <ul>
+                    <li>Mentoring Cohort 4 participants in blockchain, AI integration, and Bitcoin technology leadership development</li>
+                    <li>Supporting the next generation of Web3 leaders through knowledge sharing and guidance</li>
+                    <li>Empowering talent to drive innovation in the Bitcoin ecosystem with AI-enhanced applications</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Web3 Talents Mentor</h4>
+                <div class="company">DLT Talents, Frankfurt School Blockchain Center</div>
+                <div class="period">Sep 2022 - Jan 2024</div>
+                <ul>
+                    <li>Participated in an 18-week program focusing on career development in the blockchain ecosystem</li>
+                    <li>Supported efforts to empower women as entrepreneurs, technologists, and innovators in the blockchain space</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Chainlink Developer Expert</h4>
+                <div class="company">Chainlink Labs</div>
+                <div class="period">Sep 2021 - Present</div>
+                <ul>
+                    <li>Serve as a smart contract and blockchain developer with deep experience building with Chainlink</li>
+                    <li>Passionate about sharing technical knowledge and advancing blockchain technology</li>
+                    <li>Exploring AI oracle integration for enhanced data reliability and prediction markets</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Chainlink Community Advocate</h4>
+                <div class="company">Chainlink Labs</div>
+                <div class="period">May 2022 - Aug 2022</div>
+                <ul>
+                    <li>Championed blockchain technology by bringing local communities together</li>
+                    <li>Worked to advance awareness and adoption of smart contracts</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Polkadot Ambassador Candidate</h4>
+                <div class="company">Polkadot</div>
+                <div class="period">May 2022 - Jul 2022</div>
+                <ul>
+                    <li>Contributed to the Web3 ecosystem by supporting Polkadot and Kusama</li>
+                    <li>Shared knowledge, learned new skills, and engaged with the blockchain community</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>ConsenSys Academy Mentor</h4>
+                <div class="company">ConsenSys Academy</div>
+                <div class="period">Aug 2021 - Jan 2022</div>
+                <ul>
+                    <li>Supported the flagship ConsenSys developer program</li>
+                    <li>Provided mentorship, peer support, and guidance in blockchain development education</li>
+                </ul>
+            </div>
+        </section>
+        
+        <div class="page-break"></div>
+        
+        <section class="section">
+            <h3>Technical Skills</h3>
+            <div class="skills-container">
+                <span class="skill">Artificial Intelligence & Machine Learning</span>
+                <span class="skill">Natural Language Processing</span>
+                <span class="skill">Neural Networks & Deep Learning</span>
+                <span class="skill">AI Model Deployment</span>
+                <span class="skill">Predictive Analytics</span>
+                <span class="skill">Computer Vision Applications</span>
+                <span class="skill">Azure AI Services</span>
+                <span class="skill">TensorFlow & PyTorch</span>
+                <span class="skill">Blockchain Platforms</span>
+                <span class="skill">Smart Contract Development</span>
+                <span class="skill">Chainlink Oracles</span>
+                <span class="skill">Web3 Technologies</span>
+                <span class="skill">DApp Development</span>
+                <span class="skill">Smart Contract Security Auditing</span>
+                <span class="skill">Fuzzing and Formal Verification</span>
+                <span class="skill">Community Building</span>
+                <span class="skill">Python Blockchain Development</span>
+                <span class="skill">Vyper Smart Contract Programming</span>
+                <span class="skill">Creative Writing</span>
+                <span class="skill">Technical Content Writing</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h3>Publications</h3>
+            <ul>
+                <li><a href="https://hackernoon.com/u/edwinliavaa">HackerNoon</a></li>
+                <li><a href="https://hashnode.com/@EdwinLiavaa">HashNode</a></li>
+                <li><a href="https://www.researchgate.net/profile/Edwin-Liavaa">ResearchGate</a></li>
+            </ul>
+        </section>
+        
+        <div class="no-print" style="text-align: center; margin: 40px 0; padding: 20px; background: var(--light-grey); border-radius: 10px;">
+            <p style="margin-bottom: 15px;">Print this resume using your browser's print function (Ctrl+P or Cmd+P)</p>
+            <button onclick="window.print()" style="padding: 10px 20px; background: linear-gradient(to right, var(--orange), var(--orange-light)); color: var(--light-text); border: none; border-radius: 4px; cursor: pointer; font-weight: 500;">Print Resume</button>
+        </div>
+    </div>
+</body>
+</html>
