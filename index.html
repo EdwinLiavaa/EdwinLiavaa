@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edwin Liava'a</title>
+    <title>Edwin Liava'a - Pasifika Web3 Tech Hub</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+        /* Pasifika Web3 Tech Hub - Theme Variables */
         :root {
-            --primary-color: #0077b6;
-            --secondary-color: #00b4d8;
-            --accent-color: #48cae4;
-            --dark-color: #1d3557;
-            --light-color: #f8f9fa;
-            --text-color: #333;
-            --pacific-blue: #0096c7;
-            --pacific-green: #2a9d8f;
+            /* Primary Colors */
+            --primary-color: #333333;     /* Dark Grey */
+            --secondary-color: #444444;   /* Medium Grey */
+            --accent-color: #FF5722;      /* Orange */
+            
+            /* Color Palette */
+            --dark-grey: #333333;         /* Dark Grey */
+            --medium-grey: #444444;       /* Medium Grey */
+            --light-grey: #f8f8f8;        /* Light Grey */
+            --orange: #FF5722;            /* Orange */
+            --orange-light: #FF9800;      /* Light Orange */
+            --white: #FFFFFF;             /* White */
+            
+            /* UI Colors */
+            --light-text: #FFFFFF;        /* White */
+            --dark-text: #333333;         /* Dark Grey */
+            --background: #FFFFFF;        /* White */
+            --card-bg: #f8f8f8;           /* Light Grey */
         }
         
         * {
@@ -24,43 +36,50 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Poppins', sans-serif;
             line-height: 1.6;
-            color: var(--text-color);
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark-text);
+            background: var(--background);
             min-height: 100vh;
         }
         
         .container {
-            width: 90%;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem 0;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            background: var(--background);
+            color: var(--dark-text);
+            transition: background-color 0.3s, color 0.3s;
         }
         
         header {
             text-align: center;
             padding: 3rem 1rem;
-            background: linear-gradient(135deg, var(--pacific-blue) 0%, var(--pacific-green) 100%);
-            color: white;
+            background-color: var(--dark-grey);
+            color: var(--light-text);
             border-radius: 10px;
             margin-bottom: 2rem;
+            border-bottom: 2px solid var(--accent-color);
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         
         h1 {
             font-size: 3rem;
             margin-bottom: 1rem;
+            font-weight: 700;
         }
         
         .subtitle {
             font-size: 1.2rem;
             margin-bottom: 1.5rem;
             opacity: 0.9;
+            font-weight: 500;
         }
         
         section {
-            background: white;
+            background: var(--white);
             padding: 2rem;
             border-radius: 10px;
             margin-bottom: 2rem;
@@ -68,16 +87,20 @@
         }
         
         h2 {
-            color: var(--primary-color);
+            color: var(--dark-grey);
             border-bottom: 2px solid var(--accent-color);
             padding-bottom: 0.5rem;
             margin-bottom: 1.5rem;
+            font-weight: 700;
+            font-size: 2rem;
         }
         
         h3 {
-            color: var(--secondary-color);
+            color: var(--dark-grey);
             margin-bottom: 1rem;
             margin-top: 1.5rem;
+            font-weight: 600;
+            font-size: 1.3rem;
         }
         
         p {
@@ -92,12 +115,19 @@
         }
         
         .skill-tag {
-            background: var(--light-color);
+            background: var(--light-grey);
             padding: 0.5rem 1rem;
             border-radius: 20px;
             font-size: 0.9rem;
-            color: var(--dark-color);
+            color: var(--dark-grey);
             border: 1px solid #e9ecef;
+            transition: all 0.3s ease;
+        }
+        
+        .skill-tag:hover {
+            background: var(--orange-light);
+            color: var(--white);
+            transform: translateY(-2px);
         }
         
         .social-links {
@@ -115,17 +145,18 @@
             width: 40px;
             height: 40px;
             border-radius: 50%;
-            background: white;
-            color: var(--primary-color);
+            background: var(--white);
+            color: var(--dark-grey);
             text-decoration: none;
             transition: all 0.3s ease;
             box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin: 0 5px;
         }
         
         .social-link:hover {
             transform: translateY(-3px);
-            background: var(--primary-color);
-            color: white;
+            background: linear-gradient(to right, var(--orange), var(--orange-light));
+            color: var(--white);
         }
         
         .projects {
@@ -135,16 +166,18 @@
         }
         
         .project-card {
-            background: var(--light-color);
+            background: var(--card-bg);
             border-radius: 10px;
             overflow: hidden;
             transition: all 0.3s ease;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid rgba(255, 87, 34, 0.1);
         }
         
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-color: var(--orange);
         }
         
         .project-content {
@@ -153,8 +186,13 @@
         
         .project-title {
             font-size: 1.2rem;
-            color: var(--dark-color);
+            font-weight: 600;
             margin-bottom: 0.5rem;
+            background: linear-gradient(to right, var(--orange), var(--orange-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
         }
         
         .project-description {
@@ -165,19 +203,23 @@
         
         .btn {
             display: inline-block;
-            padding: 0.5rem 1rem;
-            background: var(--primary-color);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 500;
+            text-align: center;
+            cursor: pointer;
             transition: all 0.3s ease;
-            font-weight: 600;
+            border: none;
+            background: linear-gradient(to right, var(--orange), var(--orange-light));
+            color: var(--light-text);
+            text-decoration: none;
             font-size: 0.9rem;
         }
         
         .btn:hover {
-            background: var(--secondary-color);
+            opacity: 0.9;
             transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         
         .stats {
@@ -196,24 +238,27 @@
         }
         
         .portfolios a {
-            color: var(--primary-color);
+            color: var(--dark-grey);
             text-decoration: none;
             font-weight: 500;
             transition: all 0.3s ease;
+            padding: 8px 0;
+            display: inline-block;
         }
         
         .portfolios a:hover {
-            color: var(--secondary-color);
-            text-decoration: underline;
+            color: var(--orange);
+            transform: translateX(5px);
         }
         
         footer {
             text-align: center;
             padding: 2rem 1rem;
-            background: var(--dark-color);
-            color: white;
+            background-color: var(--dark-grey);
+            color: var(--light-text);
             border-radius: 10px;
             margin-top: 2rem;
+            border-top: 2px solid var(--accent-color);
         }
         
         @media (max-width: 768px) {
@@ -231,7 +276,7 @@
     <div class="container">
         <header>
             <h1>Edwin Liava'a</h1>
-            <p class="subtitle">Founder & Full Stack Developer of Pasifika.xyz</p>
+            <p class="subtitle">Founder & Full Stack Developer of <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Pasifika.xyz</span></p>
             <div class="social-links">
                 <a href="https://chain.link/developers/experts" class="social-link" title="Chainlink"><i class="fas fa-link"></i></a>
                 <a href="https://web3-talents.io/btctalents/btcmentors/bitcoin-talents-mentor-edwin-liavaa/" class="social-link" title="Bitcoin Talents"><i class="fab fa-bitcoin"></i></a>
@@ -245,7 +290,7 @@
         </header>
         
         <section>
-            <h2>About Me</h2>
+            <h2>About <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Me</span></h2>
             <div class="skills">
                 <span class="skill-tag">Humanitarian</span>
                 <span class="skill-tag">Mentor</span>
@@ -268,7 +313,7 @@
         </section>
         
         <section>
-            <h2>Projects & Contributions</h2>
+            <h2>Projects & <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Contributions</span></h2>
             <div class="projects">
                 <div class="project-card">
                     <div class="project-content">
