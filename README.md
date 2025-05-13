@@ -25,11 +25,12 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 * Internet | Telco [here](telecom-resume.md)
 * Professional & Diverse Technology Experiences [here](professional-experiences.md)
 
-### Blog
+### My Blog
 * Check out my Blog [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
-### Rootstock Hacktivator Program Contributor
-* Check out my contribution to the [Vyper Starter Kit repository on Rootstock](https://dev.rootstock.io/developers/quickstart/rootstock-vyper/)
+### Pasifika - The Web3 Tech Hub
+* Check out my lastest project and contribution to the [Pasifika - The Web3 Tech Hub](https://github.com/Pasifika-Web3-Tech-Hub)
+
 
 ### Smart Contract Security Research
 * Check out my [Cyfrin Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
