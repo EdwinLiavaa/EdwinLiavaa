@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Liava'a</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0077b6;
+            --secondary-color: #00b4d8;
+            --accent-color: #48cae4;
+            --dark-color: #1d3557;
+            --light-color: #f8f9fa;
+            --text-color: #333;
+            --pacific-blue: #0096c7;
+            --pacific-green: #2a9d8f;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: linear-gradient(135deg, var(--pacific-blue) 0%, var(--pacific-green) 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+        
+        section {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        h3 {
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .skill-tag {
+            background: var(--light-color);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--dark-color);
+            border: 1px solid #e9ecef;
+        }
+        
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .project-card {
+            background: var(--light-color);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .project-content {
+            padding: 1.5rem;
+        }
+        
+        .project-title {
+            font-size: 1.2rem;
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-description {
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .btn:hover {
+            background: var(--secondary-color);
+            transform: translateY(-2px);
+        }
+        
+        .stats {
+            background: var(--light-color);
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .portfolios {
+            list-style-type: none;
+        }
+        
+        .portfolios li {
+            margin-bottom: 1rem;
+        }
+        
+        .portfolios a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .portfolios a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: var(--dark-color);
+            color: white;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Edwin Liava'a</h1>
+            <p class="subtitle">Founder & Full Stack Developer of Pasifika.xyz</p>
+            <div class="social-links">
+                <a href="https://chain.link/developers/experts" class="social-link" title="Chainlink"><i class="fas fa-link"></i></a>
+                <a href="https://web3-talents.io/btctalents/btcmentors/bitcoin-talents-mentor-edwin-liavaa/" class="social-link" title="Bitcoin Talents"><i class="fab fa-bitcoin"></i></a>
+                <a href="https://www.linkedin.com/in/edwin-liavaa/" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/EdwinLiavaa" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.researchgate.net/profile/Edwin-Liavaa" class="social-link" title="ResearchGate"><i class="fas fa-flask"></i></a>
+                <a href="https://hashnode.com/@EdwinLiavaa" class="social-link" title="Hashnode"><i class="fas fa-hashtag"></i></a>
+                <a href="https://www.youtube.com/@EdwinLiavaa" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://github.com/EdwinLiavaa" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </header>
+        
+        <section>
+            <h2>About Me</h2>
+            <div class="skills">
+                <span class="skill-tag">Humanitarian</span>
+                <span class="skill-tag">Mentor</span>
+                <span class="skill-tag">Advisor</span>
+                <span class="skill-tag">Innovator</span>
+                <span class="skill-tag">Activist</span>
+                <span class="skill-tag">Software Engineer</span>
+                <span class="skill-tag">Prompt Engineer</span>
+                <span class="skill-tag">AI</span>
+                <span class="skill-tag">ML</span>
+                <span class="skill-tag">Web3</span>
+                <span class="skill-tag">Blockchain</span>
+                <span class="skill-tag">Smart Contracts</span>
+                <span class="skill-tag">GIS</span>
+                <span class="skill-tag">Geomatics</span>
+                <span class="skill-tag">Bounty Writer</span>
+            </div>
+            <p>I am the Founder and Full Stack Developer of Pasifika.xyz, a decentralized physical infrastructure network (DePIN) designed specifically for Pacific Island communities. Our platform uses the PASIFIKA token (PSF) with a proof of concept built on Linea's zkEVM Layer-2 solution, while evaluating alternatives like Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM, RootStock, and Internet Computer for production.</p>
+            <p>My mission is to create a sustainable economic ecosystem that preserves cultural heritage while creating new digital opportunities for islanders throughout the Pacific region.</p>
+        </section>
+        
+        <section>
+            <h2>Projects & Contributions</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Pasifika - The Web3 Tech Hub</h3>
+                        <p class="project-description">A decentralized physical infrastructure network (DePIN) for Pacific Island communities using PASIFIKA token (PSF).</p>
+                        <a href="https://github.com/Pasifika-Web3-Tech-Hub" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Smart Contract Security</h3>
+                        <p class="project-description">Research and contributions in blockchain security and smart contract auditing.</p>
+                        <a href="https://github.com/EdwinLiavaa/codehawks-security-portfolio" class="btn">View Portfolio</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Blockchain Governance</h3>
+                        <p class="project-description">Whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus.</p>
+                        <a href="https://github.com/EdwinLiavaa/Whitepaper" class="btn">Read Whitepaper</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Pacific Utilities GIS</h3>
+                        <p class="project-description">Open-sourcing decades of GIS innovation for Pacific utilities and infrastructure.</p>
+                        <a href="https://github.com/EdwinLiavaa/pacific-utilities-gis" class="btn">Explore Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">PasifikaOS</h3>
+                        <p class="project-description">An innovative operating system project designed specifically for Pacific Islanders.</p>
+                        <a href="https://github.com/EdwinLiavaa/pasifikaos" class="btn">View PasifikaOS</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">liavaa.space</h3>
+                        <p class="project-description">My personal blog featuring insights on Web3, blockchain, and Pacific Island technology development.</p>
+                        <a href="https://github.com/EdwinLiavaa/liavaa.space" class="btn">Read Blog</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>GitHub Stats</h2>
+            <div class="stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=darcula_icons=true" alt="Edwin Liava'a's GitHub stats">
+            </div>
+        </section>
+        
+        <section>
+            <h2>Portfolios & Resumes</h2>
+            <ul class="portfolios">
+                <li><a href="web3-ai-resume.md">Web3 & AI Resume</a></li>
+                <li><a href="gis-resume.md">Geomatics | Geospatial | GIS Resume</a></li>
+                <li><a href="telecom-resume.md">Internet & Telecommunications Resume</a></li>
+                <li><a href="professional-experiences.md">Professional & Diverse Technology Experiences</a></li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>&copy; 2025 Edwin Liava'a | Pasifika.xyz</p>
+        </footer>
+    </div>
+</body>
+</html>
