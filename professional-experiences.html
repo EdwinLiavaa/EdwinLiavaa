@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edwin Liava'a - Professional Portfolio & Diverse Technology Experiences</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Pasifika Web3 Tech Hub - Theme Variables */
+        :root {
+            /* Primary Colors */
+            --primary-color: #333333;     /* Dark Grey */
+            --secondary-color: #444444;   /* Medium Grey */
+            --accent-color: #FF5722;      /* Orange */
+            
+            /* Color Palette */
+            --dark-grey: #333333;         /* Dark Grey */
+            --medium-grey: #444444;       /* Medium Grey */
+            --light-grey: #f8f8f8;        /* Light Grey */
+            --orange: #FF5722;            /* Orange */
+            --orange-light: #FF9800;      /* Light Orange */
+            --white: #FFFFFF;             /* White */
+            
+            /* UI Colors */
+            --light-text: #FFFFFF;        /* White */
+            --dark-text: #333333;         /* Dark Grey */
+            --background: #FFFFFF;        /* White */
+            --card-bg: #f8f8f8;           /* Light Grey */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background: var(--background);
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .resume-container {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: var(--orange);
+            font-weight: 500;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: var(--dark-grey);
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            color: var(--dark-grey);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--dark-grey);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        
+        h4 {
+            font-size: 1.2rem;
+            color: var(--dark-grey);
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+        
+        h5 {
+            font-size: 1.1rem;
+            color: var(--dark-grey);
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        
+        .period {
+            font-style: italic;
+            color: var(--medium-grey);
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        a {
+            color: var(--orange);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        a:hover {
+            color: var(--orange-light);
+            text-decoration: underline;
+        }
+        
+        .contact-info {
+            margin-bottom: 30px;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill-tag {
+            background: var(--light-grey);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: var(--dark-grey);
+            border: 1px solid #e9ecef;
+        }
+        
+        .print-button {
+            background-color: var(--orange);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .print-button:hover {
+            background-color: var(--orange-light);
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                font-size: 12pt;
+            }
+            
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+            
+            .print-button, .back-link {
+                display: none;
+            }
+            
+            a {
+                color: var(--dark-grey);
+                text-decoration: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .resume-container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <a href="index.html" class="back-link">← Back to Portfolio</a>
+            <h1>Edwin Liava'a</h1>
+            <h2>Professional Portfolio & Diverse Technology Experiences</h2>
+        </header>
+        
+        <div class="contact-info">
+            <p>
+                Email: <a href="mailto:edwin@pasifika.xyz">edwin@pasifika.xyz</a> | 
+                LinkedIn: <a href="https://www.linkedin.com/in/edwin-liavaa/">edwin-liavaa</a> | 
+                GitHub: <a href="https://github.com/EdwinLiavaa">EdwinLiavaa</a>
+            </p>
+        </div>
+        
+        <section>
+            <h3>Professional Highlights</h3>
+            
+            <div class="experience-item">
+                <h4>Founder & Full Stack Developer, Pasifika Web3 Tech Hub</h4>
+                <div class="period">Apr 2025 – Present</div>
+                <ul>
+                    <li>Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) specifically designed for Pacific Island communities</li>
+                    <li>Engineered a platform operating across multiple Ethereum EVM based chains</li>
+                    <li>Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islanders</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>GIS Team Leader, Kahuto Pacific</h4>
+                <div class="period">Feb 2025 – March 2025</div>
+                <ul>
+                    <li>Oversee the development, implementation, and management of Geographic Information System (GIS) projects within the Moana Database.</li>
+                    <li>Lead the team in pioneering the Pacific's first comprehensive geospatial data platform, delivering high-quality LiDAR and imagery data through an intuitive cloud-based portal.</li>
+                    <li>Empower sustainable development across Pacific Island communities by providing accessible and actionable geospatial data.</li>
+                    <li>Collaborate with stakeholders to ensure the platform meets the needs of governments, utilities, and development organizations.</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>GIS Specialist, OCA GLOBAL</h4>
+                <div class="period">Dec 2023 – Present</div>
+                <ul>
+                    <li>Developed disaster risk reduction policies for electric utilities in Federated States of Micronesia</li>
+                    <li>Conducted comprehensive GIS risk assessments for infrastructure vulnerability</li>
+                    <li>Provided capacity building in disaster vulnerability analysis and risk monitoring</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Satellite Communication Consultant, Dialectica</h4>
+                <div class="period">Oct 2024 – November 2024</div>
+                <ul>
+                    <li>Providing independent consultancy in Satellite Communication Market</li>
+                    <li>Focusing on Fixed and Mobile Internet Access solutions</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>International Consultant, AlphaSights</h4>
+                <div class="period">Dec 2023 – Present</div>
+                <ul>
+                    <li>Providing on-demand expert knowledge across various domains</li>
+                    <li>Helping clients unlock strategic insights</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Digital Skills Leadership, Nathan (Cadmus Company)</h4>
+                <div class="period">Oct 2023 – Dec 2023</div>
+                <h5>Objective 4 Lead: Digital Skills and Literacy</h5>
+                <ul>
+                    <li>Led USAID Digital Connectivity and Cybersecurity Partnership Project (DCCP)-Pacific</li>
+                    <li>Enhanced digital skills for civil servants, government officials, and citizens</li>
+                    <li>Supported development of next-generation ICT specialists</li>
+                </ul>
+                
+                <h5>Digital Skills Advisor</h5>
+                <ul>
+                    <li>Conducted stakeholder mapping and gap analyses</li>
+                    <li>Supported ICT, cybersecurity, and digital economy skills development across Pacific Island Countries</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Web3 and Technology Advocacy</h3>
+            
+            <div class="experience-item">
+                <h4>Web3 Developer Evangelist, CheSpatial</h4>
+                <div class="period">Dec 2022 – Apr 2023</div>
+                <ul>
+                    <li>Led blockchain, AI, and machine learning awareness across the Pacific region</li>
+                    <li>Developed solutions on Hedera, Ethereum, and EVM chains</li>
+                    <li>Showcased real-world blockchain applications</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Chief Technology Officer, PowerPlay</h4>
+                <div class="period">May 2022 – Jun 2022</div>
+                <ul>
+                    <li>Managed web3 technology strategy for blockchain gaming startup</li>
+                    <li>Led engineering team in building secure, scalable decentralized applications</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Strategic Connectivity Roles</h3>
+            
+            <div class="experience-item">
+                <h4>Regional Director, Kacific Broadband Satellites Group</h4>
+                <div class="period">Aug 2020 – Jan 2022</div>
+                <ul>
+                    <li>Expanded broadband coverage across the Pacific</li>
+                    <li>Acted as brand ambassador</li>
+                    <li>Forged partnerships to bridge digital divides</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <h4>Corporate Development Director, Kacific Broadband Satellites Group</h4>
+                <div class="period">Jan 2022 – Dec 2022</div>
+                <ul>
+                    <li>Explored strategic partnerships</li>
+                    <li>Worked to remove policy barriers and increase broadband adoption</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Earlier Professional Experiences</h3>
+            <ul>
+                <li><strong>Consultant</strong>, World Wide Web Foundation (Apr 2020 – Jul 2020)</li>
+                <li><strong>Chief Executive Officer</strong>, Tonga Cable Ltd (Feb 2018 – Feb 2020)</li>
+                <li><strong>Manager IT Services</strong>, University of Fiji (May 2017 – Jan 2018)</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Education & Continuous Learning</h3>
+            <ul>
+                <li>Smart Contract Security Researcher, Cyfrin Updraft (Nov 2023 – Present)</li>
+                <li>BSc in Computing Science and Information Systems, University of the South Pacific</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Skills</h3>
+            <div class="skills-container">
+                <div class="skill-tag">Digital Transformation</div>
+                <div class="skill-tag">Strategic Planning</div>
+                <div class="skill-tag">Technology Advocacy</div>
+                <div class="skill-tag">Project Management</div>
+                <div class="skill-tag">Stakeholder Engagement</div>
+                <div class="skill-tag">Web3 Technologies</div>
+                <div class="skill-tag">Digital Skills Development</div>
+                <div class="skill-tag">Broadband Connectivity</div>
+            </div>
+        </section>
+        
+        <section>
+            <h3>Certifications</h3>
+            <ul>
+                <li>Multiple Blockchain and AI Certifications</li>
+                <li>Google Cloud AI Training Certificates</li>
+                <li>DLT Talents Certificate of Mentorship</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3>Publications</h3>
+            <ul>
+                <li><a href="https://hackernoon.com/u/edwinliavaa">HackerNoon</a></li>
+                <li><a href="https://hashnode.com/@EdwinLiavaa">HashNode</a></li>
+                <li><a href="https://www.researchgate.net/profile/Edwin-Liavaa">ResearchGate</a></li>
+            </ul>
+        </section>
+        
+        <button class="print-button" onclick="window.print()">Print Resume</button>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Any additional JavaScript functionality can go here
+        });
+    </script>
+</body>
+</html>
