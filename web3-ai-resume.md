@@ -101,6 +101,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Volunteer Experiences
 
+#### AI Talents Mentor
+**Web3 Talents, Frankfurt School Blockchain Center** | May 2025 - Present
+- Mentoring Cohort 1 participants in AI Talents fosters leadership in the artificial intelligence space by empowering aspiring innovators to become experts, entrepreneurs, and industry pioneers
+- Supporting a free 7-week mentorship program that empowers participants to break into the AI space through expert-led sessions and peer collaboration
+- Helping participants gain practical AI skills and become future leaders in this transformative field
+- Facilitating remote participation, making AI expertise accessible globally
+
 #### Web3 Talents Mentor
 **Bitcoin Talents, Frankfurt School Blockchain Center** | Jan 2025 - Present
 - Mentoring Cohort 4 participants in blockchain, AI integration, and Bitcoin technology leadership development
