@@ -248,10 +248,23 @@
         
         .portfolios {
             list-style-type: none;
+            padding: 0.5rem;
         }
         
         .portfolios li {
             margin-bottom: 1rem;
+            background-color: var(--light-grey);
+            border-radius: 8px;
+            padding: 0.7rem 1rem;
+            transition: all 0.3s ease;
+            border-left: 3px solid var(--orange);
+        }
+        
+        .portfolios li:hover {
+            transform: translateX(5px);
+            background-color: var(--white);
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-left: 3px solid var(--orange-light);
         }
         
         .portfolios a {
@@ -261,6 +274,15 @@
             transition: all 0.3s ease;
             padding: 8px 0;
             display: inline-block;
+            width: 100%;
+        }
+        
+        .portfolios i {
+            color: var(--orange);
+            margin-right: 12px;
+            font-size: 1.1rem;
+            width: 24px;
+            text-align: center;
         }
         
         .portfolios a:hover {
@@ -420,10 +442,10 @@
         <section>
             <h2>Portfolios & Resumes</h2>
             <ul class="portfolios">
-                <li><a href="web3-ai-resume.html">Web3 & AI Resume</a></li>
-                <li><a href="gis-resume.html">Geomatics | Geospatial | GIS Resume</a></li>
-                <li><a href="telecom-resume.html">Internet & Telecommunications Resume</a></li>
-                <li><a href="professional-experiences.html">Professional & Diverse Technology Experiences</a></li>
+                <li><a href="web3-ai-resume.html"><i class="fas fa-code-branch"></i>Web3 & AI Resume</a></li>
+                <li><a href="gis-resume.html"><i class="fas fa-globe-asia"></i>Geomatics | Geospatial | GIS Resume</a></li>
+                <li><a href="telecom-resume.html"><i class="fas fa-wifi"></i>Internet & Telecommunications Resume</a></li>
+                <li><a href="professional-experiences.html"><i class="fas fa-briefcase"></i>Professional & Diverse Technology Experiences</a></li>
             </ul>
         </section>
         
