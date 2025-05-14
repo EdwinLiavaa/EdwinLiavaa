@@ -40,81 +40,81 @@
             line-height: 1.6;
             color: var(--dark-text);
             background: var(--background);
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 0;
+            margin: 0;
         }
-        
-        .resume-container {
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
             background: var(--white);
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
         }
         
         header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        
-        .back-link {
-            display: inline-block;
-            margin-bottom: 20px;
-            text-decoration: none;
-            color: var(--orange);
-            font-weight: 500;
+            padding: 30px 0;
+            border-bottom: 2px solid var(--accent-color);
+            margin-bottom: 30px;
         }
         
         h1 {
             font-size: 2.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
             color: var(--dark-grey);
+            font-weight: 700;
         }
         
         h2 {
             font-size: 1.8rem;
             color: var(--dark-grey);
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 10px;
             margin-bottom: 20px;
+            font-weight: 600;
         }
         
         h3 {
             font-size: 1.5rem;
             color: var(--dark-grey);
-            margin-top: 30px;
-            margin-bottom: 15px;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin: 30px 0 15px;
+            font-weight: 600;
         }
         
         h4 {
             font-size: 1.2rem;
+            margin: 20px 0 5px;
             color: var(--dark-grey);
-            margin-top: 20px;
-            margin-bottom: 5px;
+            font-weight: 600;
         }
         
         h5 {
             font-size: 1.1rem;
+            margin: 15px 0 5px;
             color: var(--dark-grey);
-            margin-top: 15px;
-            margin-bottom: 5px;
+            font-weight: 500;
             font-style: italic;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            color: var(--dark-grey);
+        }
+        
+        .company {
+            font-weight: 600;
+            color: var(--orange);
+            margin-bottom: 5px;
         }
         
         .period {
             font-style: italic;
             color: var(--medium-grey);
             margin-bottom: 10px;
-            font-size: 0.9rem;
-        }
-        
-        p {
-            margin-bottom: 15px;
         }
         
         ul {
+            margin-left: 20px;
             margin-bottom: 20px;
-            padding-left: 20px;
         }
         
         li {
@@ -124,104 +124,119 @@
         a {
             color: var(--orange);
             text-decoration: none;
-            transition: color 0.3s ease;
         }
         
         a:hover {
-            color: var(--orange-light);
             text-decoration: underline;
         }
         
         .contact-info {
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .contact-info li {
+            list-style: none;
+            margin-right: 20px;
+        }
+        
+        .section {
             margin-bottom: 30px;
+        }
+        
+        .experience-item {
+            margin-bottom: 25px;
         }
         
         .skills-container {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 10px;
+            margin-bottom: 20px;
         }
         
-        .skill-tag {
+        .skill {
             background: var(--light-grey);
-            padding: 5px 15px;
+            padding: 5px 10px;
             border-radius: 20px;
             font-size: 0.9rem;
             color: var(--dark-grey);
             border: 1px solid #e9ecef;
+            margin-bottom: 5px;
+            display: inline-block;
         }
         
-        .print-button {
-            background-color: var(--orange);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 500;
-            margin-top: 20px;
-            transition: background-color 0.3s ease;
+        .page-break {
+            page-break-before: always;
         }
         
-        .print-button:hover {
-            background-color: var(--orange-light);
-        }
-        
+        /* Print Styles */
         @media print {
             body {
-                padding: 0;
                 font-size: 12pt;
+                line-height: 1.5;
+                background: #fff;
+                color: #000;
             }
             
-            .resume-container {
-                box-shadow: none;
+            .container {
+                width: 100%;
+                max-width: 100%;
                 padding: 0;
+                margin: 0;
+                background: none;
+                box-shadow: none;
             }
             
-            .print-button, .back-link {
-                display: none;
+            header {
+                padding: 0;
+                margin-bottom: 20px;
+            }
+            
+            h1, h2, h3, h4 {
+                color: #000;
+            }
+            
+            h3 {
+                margin-top: 20px;
             }
             
             a {
-                color: var(--dark-grey);
+                color: #000;
                 text-decoration: none;
             }
-        }
-        
-        @media (max-width: 768px) {
-            .resume-container {
-                padding: 20px;
+            
+            .company {
+                color: #000;
+                font-weight: bold;
             }
             
-            h1 {
-                font-size: 2rem;
+            .no-print {
+                display: none;
             }
             
-            h2 {
-                font-size: 1.5rem;
+            .page-break {
+                page-break-before: always;
             }
         }
     </style>
 </head>
 <body>
-    <div class="resume-container">
+    <div class="container">
         <header>
-            <a href="index.html" class="back-link">← Back to Portfolio</a>
             <h1>Edwin Liava'a</h1>
-            <h2>Professional Portfolio & Diverse Technology Experiences</h2>
+            <h2>Professional Portfolio & <span class="highlight">Diverse Technology Experiences</span></h2>
+            
+            <ul class="contact-info">
+                <li>Email: edwin@pasifika.xyz</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/edwin-liavaa/">edwin-liavaa</a></li>
+                <li>GitHub: <a href="https://github.com/EdwinLiavaa">EdwinLiavaa</a></li>
+            </ul>
         </header>
         
-        <div class="contact-info">
-            <p>
-                Email: <a href="mailto:edwin@pasifika.xyz">edwin@pasifika.xyz</a> | 
-                LinkedIn: <a href="https://www.linkedin.com/in/edwin-liavaa/">edwin-liavaa</a> | 
-                GitHub: <a href="https://github.com/EdwinLiavaa">EdwinLiavaa</a>
-            </p>
-        </div>
-        
-        <section>
+        <section class="section">
             <h3>Professional Highlights</h3>
             
             <div class="experience-item">
@@ -291,7 +306,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Web3 and Technology Advocacy</h3>
             
             <div class="experience-item">
@@ -314,7 +329,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Strategic Connectivity Roles</h3>
             
             <div class="experience-item">
@@ -337,7 +352,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Earlier Professional Experiences</h3>
             <ul>
                 <li><strong>Consultant</strong>, World Wide Web Foundation (Apr 2020 – Jul 2020)</li>
@@ -346,7 +361,7 @@
             </ul>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Education & Continuous Learning</h3>
             <ul>
                 <li>Smart Contract Security Researcher, Cyfrin Updraft (Nov 2023 – Present)</li>
@@ -354,21 +369,21 @@
             </ul>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Skills</h3>
             <div class="skills-container">
-                <div class="skill-tag">Digital Transformation</div>
-                <div class="skill-tag">Strategic Planning</div>
-                <div class="skill-tag">Technology Advocacy</div>
-                <div class="skill-tag">Project Management</div>
-                <div class="skill-tag">Stakeholder Engagement</div>
-                <div class="skill-tag">Web3 Technologies</div>
-                <div class="skill-tag">Digital Skills Development</div>
-                <div class="skill-tag">Broadband Connectivity</div>
+                <span class="skill">Digital Transformation</span>
+                <span class="skill">Strategic Planning</span>
+                <span class="skill">Technology Advocacy</span>
+                <span class="skill">Project Management</span>
+                <span class="skill">Stakeholder Engagement</span>
+                <span class="skill">Web3 Technologies</span>
+                <span class="skill">Digital Skills Development</span>
+                <span class="skill">Broadband Connectivity</span>
             </div>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Certifications</h3>
             <ul>
                 <li>Multiple Blockchain and AI Certifications</li>
@@ -377,7 +392,7 @@
             </ul>
         </section>
         
-        <section>
+        <section class="section">
             <h3>Publications</h3>
             <ul>
                 <li><a href="https://hackernoon.com/u/edwinliavaa">HackerNoon</a></li>
@@ -386,13 +401,10 @@
             </ul>
         </section>
         
-        <button class="print-button" onclick="window.print()">Print Resume</button>
+        <div class="no-print" style="text-align: center; margin: 40px 0; padding: 20px; background: var(--light-grey); border-radius: 10px;">
+            <p style="margin-bottom: 15px;">Print this resume using your browser's print function (Ctrl+P or Cmd+P)</p>
+            <button onclick="window.print()" style="padding: 10px 20px; background: linear-gradient(to right, var(--orange), var(--orange-light)); color: var(--light-text); border: none; border-radius: 4px; cursor: pointer; font-weight: 500;">Print Resume</button>
+        </div>
     </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Any additional JavaScript functionality can go here
-        });
-    </script>
 </body>
 </html>
