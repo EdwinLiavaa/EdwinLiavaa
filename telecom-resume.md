@@ -10,6 +10,12 @@ Visionary technology leader with decades of experience in digital transformation
 
 ### Key Leadership Roles
 
+#### Chairman of the Board of Directors, Tonga Cable Ltd
+*May 2025 – Present*
+- Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system
+- Ensuring sustainable operation and expansion of critical national digital infrastructure
+- Driving initiatives to enhance connectivity and digital access across the Kingdom of Tonga
+
 #### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
 *Apr 2025 – Present*
 - Founded a pioneering decentralized physical infrastructure network (DePIN) specifically designed to enhance digital connectivity across Pacific Island communities

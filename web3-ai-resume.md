@@ -11,6 +11,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Professional Experience
 
+#### Chairman of the Board of Directors
+**Tonga Cable Ltd** | May 2025 – Present
+- Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system
+- Ensuring sustainable operation and expansion of critical national digital infrastructure
+- Driving initiatives to enhance connectivity and digital access across the Kingdom of Tonga
+- Leveraging blockchain and emerging technologies to improve security and management of telecommunications infrastructure
+
 #### Founder & Full Stack Developer
 **Pasifika Web3 Tech Hub (pasifika.xyz)** | Apr 2025 – Present
 - Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) designed specifically for Pacific Island communities
