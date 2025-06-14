@@ -23,8 +23,6 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/EdwinLiavaa)](https://git.io/awesome-stats-card)
 
-![Edwin Liava'a's GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&theme=darcula_icons=true)
-
 ## Projects & Contributions
 
 ### Pasifika - The Web3 Tech Hub
