@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasifika.xyz - DePIN for Pacific Islands</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0095B6; /* Ocean blue */
+            --secondary-color: #F4A261; /* Sunset orange */
+            --accent-color: #26C485; /* Island green */
+            --dark-color: #264653; /* Deep ocean */
+            --light-color: #E9F5F9; /* Light sky */
+            --text-color: #333333;
+            --white: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-color);
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--dark-color));
+            color: var(--white);
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            font-size: 2.2rem;
+            margin: 2rem 0 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        h3 {
+            font-size: 1.8rem;
+            margin: 1.5rem 0 1rem;
+            color: var(--dark-color);
+        }
+        
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--accent-color);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .section {
+            padding: 3rem 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .section:last-child {
+            border-bottom: none;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .card {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+        
+        .token-info {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            padding: 2rem;
+            border-radius: 10px;
+            color: var(--white);
+            margin: 2rem 0;
+        }
+        
+        .network-diagram {
+            background: var(--white);
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-left: 2.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .timeline-item::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            border: 3px solid var(--white);
+            box-shadow: 0 0 0 3px var(--primary-color);
+        }
+        
+        .timeline-item::after {
+            content: "";
+            position: absolute;
+            left: 8px;
+            top: 20px;
+            bottom: -20px;
+            width: 2px;
+            background: var(--primary-color);
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        .timeline-date {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .island-list {
+            list-style-type: none;
+        }
+        
+        .island-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px dashed #ddd;
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .island-list li:before {
+            content: "🏝️";
+            position: absolute;
+            left: 0;
+        }
+        
+        .footer {
+            background-color: var(--dark-color);
+            color: var(--white);
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .social-links {
+            margin-top: 1rem;
+        }
+        
+        .social-links a {
+            display: inline-block;
+            color: var(--white);
+            font-size: 1.5rem;
+            margin: 0 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+        
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pasifika.xyz <span style="font-size: 0.8em;">🌴</span></h1>
+            <p class="tagline">A Decentralized Physical Infrastructure Network for Pacific Islands</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Pasifika.xyz</h2>
+            <p>Pasifika.xyz is a pioneering Decentralized Physical Infrastructure Network (DePIN) specifically designed for Pacific Island communities. Our mission is to create a sustainable economic ecosystem that preserves cultural heritage while creating new digital opportunities for islanders.</p>
+            
+            <div class="token-info">
+                <h3>PASIFIKA Token (PSF)</h3>
+                <p>Our native token powers the entire Pasifika ecosystem, providing incentives for infrastructure providers, content creators, and community participants.</p>
+                <p>Built on Linea's zkEVM Layer-2 solution for our proof-of-concept, while evaluating alternatives like Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM, RootStock, and Internet Computer for production deployment.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Key Components of Our DePIN</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Physical Infrastructure</h3>
+                    <p>Solar-powered mesh networks, satellite connectivity nodes, and local data centers distributed across Pacific Islands.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-coins"></i></div>
+                    <h3>Token Economics</h3>
+                    <p>Incentive structures to reward infrastructure providers, validators, content creators, and community participants.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Governance</h3>
+                    <p>Community-led decision making with special emphasis on preserving cultural heritage and local autonomy.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>Sustainability</h3>
+                    <p>Renewable energy focus with solar panels, sustainable materials, and minimal environmental impact.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Community Hubs</h3>
+                    <p>Digital access centers that serve as education spaces, work hubs, and community gathering places.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Global Integration</h3>
+                    <p>Connecting isolated communities to global markets, education, and healthcare resources.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Network Architecture</h2>
+            <div class="network-diagram">
+                <img src="https://via.placeholder.com/800x400?text=Pasifika+DePIN+Network+Architecture" alt="Pasifika DePIN Network Architecture">
+                <p class="caption">Visualization of our decentralized infrastructure network across Pacific Islands</p>
+            </div>
+            <p>The Pasifika.xyz network architecture is designed for resilience against natural disasters, efficient use of limited resources, and minimal latency despite geographical challenges.</p>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Island Coverage</h2>
+            <p>Our phased deployment strategy targets the following Pacific Island nations:</p>
+            <ul class="island-list">
+                <li>Kingdom of Tonga</li>
+                <li>Fiji</li>
+                <li>Samoa</li>
+                <li>Vanuatu</li>
+                <li>Solomon Islands</li>
+                <li>Kiribati</li>
+                <li>Cook Islands</li>
+                <li>Niue</li>
+                <li>Tuvalu</li>
+                <li>Marshall Islands</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Project Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Q3 2023</div>
+                    <h3>Concept Development & Research</h3>
+                    <p>Initial concept development, market research, and community needs assessment.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Q4 2023</div>
+                    <h3>Proof of Concept</h3>
+                    <p>Development of technical proof of concept on Linea zkEVM.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Q1-Q2 2024</div>
+                    <h3>Pilot Program</h3>
+                    <p>Deployment of pilot infrastructure in Tonga with initial token distribution.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Q3-Q4 2024</div>
+                    <h3>Expansion</h3>
+                    <p>Expansion to additional islands and implementation of governance structures.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Q1-Q2 2025</div>
+                    <h3>Full Deployment</h3>
+                    <p>Full-scale deployment across target islands and global partnership development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Technology Stack</h2>
+            <p>Our technology stack combines blockchain, renewable energy, and telecommunications innovations:</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Blockchain Infrastructure</h3>
+                    <ul>
+                        <li>Linea zkEVM (POC)</li>
+                        <li>Evaluating: Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM, RootStock, Internet Computer</li>
+                        <li>ERC-20 token standard with custom incentive mechanisms</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Physical Infrastructure</h3>
+                    <ul>
+                        <li>Solar panels & battery storage solutions</li>
+                        <li>Mesh network equipment</li>
+                        <li>Low-power computing hardware</li>
+                        <li>Satellite uplinks</li>
+                    </ul>
+                </div>
+                
+                <div class="card">
+                    <h3>Software Stack</h3>
+                    <ul>
+                        <li>Smart contracts for governance and incentives</li>
+                        <li>Decentralized data storage</li>
+                        <li>Edge computing solutions</li>
+                        <li>Community digital services platform</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <p>Join us in building a sustainable, decentralized future for Pacific Islands:</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Community Members</h3>
+                    <p>Participate in governance, create content, and help spread awareness.</p>
+                    <a href="#" class="btn">Join Community</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Infrastructure Providers</h3>
+                    <p>Contribute hardware resources and technical expertise to expand the network.</p>
+                    <a href="#" class="btn">Become a Provider</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Developers</h3>
+                    <p>Build applications and services on the Pasifika network.</p>
+                    <a href="#" class="btn">Explore Developer Docs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pasifika.xyz - A Decentralized Physical Infrastructure Network for Pacific Islands</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
