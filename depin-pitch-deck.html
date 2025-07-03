@@ -16,38 +16,44 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #f5f5f5;
             color: #333;
-            overflow: hidden;
+            overflow-x: hidden;
             -webkit-text-size-adjust: 100%;
+            min-height: 100vh;
+            position: relative;
         }
         
         .presentation {
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            min-height: 100vh;
             position: relative;
+            max-width: 100%;
+            overflow-x: hidden;
         }
         
         .slide {
             width: 100%;
-            height: 100%;
+            min-height: 100vh;
             position: absolute;
             top: 0;
             left: 0;
             display: none;
             padding: 40px 60px;
             background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
-            overflow: hidden;
+            overflow-x: hidden;
         }
         
         .slide.active {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            position: relative;
         }
         
         .slide-content-wrapper {
-            max-height: calc(100vh - 80px);
+            max-height: calc(100vh - 120px);
             overflow-y: auto;
             padding-right: 10px;
+            -webkit-overflow-scrolling: touch;
         }
         
         .slide-header {
@@ -286,15 +292,18 @@
         
         .navigation {
             position: fixed;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
+            bottom: 20px;
+            left: 0;
+            right: 0;
             display: flex;
+            justify-content: center;
             gap: 20px;
             z-index: 1000;
-            width: 90%;
-            max-width: 400px;
-            justify-content: center;
+            padding: 10px;
+            background-color: rgba(255,255,255,0.8);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
         }
         
         .nav-btn {
@@ -311,6 +320,8 @@
             white-space: nowrap;
             min-width: 120px;
             -webkit-tap-highlight-color: transparent;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            max-width: 160px;
         }
         
         .nav-btn:hover {
@@ -402,36 +413,44 @@
             h2 { font-size: 1.8em; }
             h3 { font-size: 1.2em; }
             .subtitle { font-size: 1.2em; }
-            .slide { padding: 20px 30px; }
-            .diagram-container { padding: 20px; }
+            .slide { padding: 20px 30px 80px; }
+            .diagram-container { padding: 20px; overflow-x: auto; }
             .feature-list li { font-size: 1.1em; padding-left: 30px; }
             .stat-number { font-size: 2em; }
             .coat-of-arms { width: 90px; }
+            .network-diagram { flex-direction: column; }
+            .node { margin: 15px auto; max-width: 280px; width: 90%; }
+            table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
         }
         
         @media (max-width: 480px) {
-            h1 { font-size: 1.8em; }
-            h2 { font-size: 1.5em; }
+            h1 { font-size: 1.7em; line-height: 1.3; }
+            h2 { font-size: 1.4em; }
             h3 { font-size: 1.1em; }
             .subtitle { font-size: 1em; }
-            .slide { padding: 15px 20px; }
+            .slide { padding: 15px 15px 70px; }
             .slide-header { margin-bottom: 20px; }
+            .slide-content-wrapper { padding-bottom: 20px; }
             .coat-of-arms { width: 70px; margin-bottom: 20px; }
-            .diagram-container { padding: 15px; margin: 15px 0; }
-            .node { padding: 15px 10px; }
-            .node-icon { font-size: 2em; }
-            .feature-list li { font-size: 1em; margin: 15px 0; }
-            .stats-grid { grid-template-columns: 1fr !important; }
-            .migration-visual { flex-direction: column; gap: 20px; }
-            .arrow { transform: rotate(90deg); }
+            .diagram-container { padding: 12px; margin: 12px 0; }
+            .node { padding: 12px 10px; margin: 10px auto; max-width: 95%; }
+            .node-icon { font-size: 1.8em; }
+            .feature-list li { font-size: 0.95em; padding-left: 25px; margin: 15px 0; }
+            .stat-number { font-size: 1.5em; }
+            .stat-card { padding: 12px; margin: 8px 0; }
+            .stat-label { font-size: 0.9em; }
+            p { font-size: 0.95em; line-height: 1.5; }
             @keyframes moveArrow {
                 0%, 100% { transform: rotate(90deg) translateX(0); }
                 50% { transform: rotate(90deg) translateX(10px); }
             }
-            .timeline-content { padding: 15px; }
-            .timeline-dot { margin-right: 15px; }
-            .navigation { bottom: 20px; }
-            .nav-btn { padding: 10px 15px; font-size: 0.9em; min-width: 100px; }
+            .timeline-content { padding: 12px; }
+            .timeline-dot { margin-right: 12px; }
+            .timeline::before { left: 8px; }
+            .navigation { bottom: 10px; }
+            .nav-btn { padding: 10px 15px; font-size: 0.9em; min-width: 90px; max-width: 130px; }
+            table { font-size: 0.85em; }
+            td, th { padding: 8px 6px; }
         }
         
         /* Touch-friendly improvements */
@@ -440,6 +459,15 @@
             input[type="button"], button { min-height: 44px; min-width: 44px; }
             .node, .stat-card, .timeline-content {
                 -webkit-tap-highlight-color: rgba(200, 16, 46, 0.3);
+            }
+            .slide-content-wrapper {
+                -webkit-overflow-scrolling: touch;
+                scroll-behavior: smooth;
+            }
+            /* Increase touch targets */
+            a, button, .node-title, .timeline-marker {
+                padding: 8px;
+                margin: -8px;
             }
         }
     </style>
@@ -1363,10 +1391,25 @@
     <script>
         let currentSlide = 0;
         const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
 
         function showSlide(index) {
+            // Update slide visibility
             slides.forEach(slide => slide.classList.remove('active'));
             slides[index].classList.add('active');
+            
+            // Scroll to top of slide
+            window.scrollTo(0, 0);
+            
+            // Update slide numbers if they exist
+            const slideNumbers = document.querySelectorAll('.slide-number');
+            if (slideNumbers.length > 0) {
+                slideNumbers.forEach((numEl, i) => {
+                    if (i === index) {
+                        numEl.textContent = `${index + 1}/${totalSlides}`;
+                    }
+                });
+            }
         }
 
         function nextSlide() {
@@ -1388,6 +1431,45 @@
             if (e.key === 'ArrowRight') nextSlide();
             if (e.key === 'ArrowLeft') previousSlide();
         });
+        
+        // Touch swipe navigation for mobile devices
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let touchStartY = 0;
+        let touchEndY = 0;
+        
+        function checkSwipeDirection() {
+            // Calculate horizontal and vertical distance
+            const horizontalDistance = Math.abs(touchEndX - touchStartX);
+            const verticalDistance = Math.abs(touchEndY - touchStartY);
+            
+            // Only process as swipe if horizontal movement is greater than vertical
+            // This prevents accidental swipes when scrolling vertically
+            if (horizontalDistance > verticalDistance && horizontalDistance > 50) {
+                if (touchEndX < touchStartX) nextSlide(); // Swipe left
+                if (touchEndX > touchStartX) previousSlide(); // Swipe right
+            }
+        }
+        
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        });
+        
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            checkSwipeDirection();
+        });
+        
+        // Fix viewport height issues on mobile
+        function setViewportHeight() {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+        
+        window.addEventListener('resize', setViewportHeight);
+        setViewportHeight();
     </script>
 </body>
 </html>
