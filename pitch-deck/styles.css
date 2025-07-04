@@ -467,39 +467,7 @@ h3 {
     text-align: center;
 }
 
-.nav-btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s;
-}
-
-.nav-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.4);
-}
-
-.next-btn {
-    padding: 12px 25px;
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-    color: white;
-    font-weight: bold;
-    border: none;
-    box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
-}
-
-.next-btn:hover {
-    background: linear-gradient(135deg, #f85a21 0%, #e68213 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.4);
-}
-
-
-.prev-btn {
-    margin-right: 10px;
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-}
+/* Navigation button styles removed here - using unified styles below */
 
 /* Remove redundant navigation styles */
 
@@ -590,22 +558,41 @@ h3 {
     pointer-events: auto; /* Make buttons clickable */
 }
 
-/* Navigation buttons */
+/* RESET - Remove all existing button styles */
+button.nav-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background: none;
+    box-shadow: none;
+    font-size: inherit;
+    color: inherit;
+    text-align: inherit;
+    line-height: normal;
+}
+
+/* Navigation buttons - fresh styling */
 .nav-btn {
+    display: inline-block;
     border-radius: 5px;
     padding: 15px 25px;
-    font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
     color: white;
     font-weight: bold;
-    position: relative;
-    z-index: 50; /* Higher than slide content but not too high */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px !important; /* Force consistent font size */
     background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
     box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
-    border: none;
-    outline: none;
-    text-align: center;
+    border: none !important;
+    outline: none !important;
+    z-index: 50;
 }
 
 .nav-btn:hover {
@@ -614,10 +601,20 @@ h3 {
     box-shadow: 0 6px 12px rgba(255, 107, 53, 0.4);
 }
 
-.prev-btn, .next-btn {
+.prev-btn {
     margin-right: 10px;
-    font-size: 20px; /* Ensure identical font size */
+    /* Ensure these are identical to next-btn */
+    font-size: 20px !important;
+    padding: 15px 25px;
 }
+
+.next-btn {
+    /* Ensure these are identical to prev-btn */
+    font-size: 20px !important;
+    padding: 15px 25px;
+}
+
+/* Both buttons share identical styling - no special overrides needed */
 
 /* Both buttons now share identical styling through .nav-btn class */
 
@@ -838,9 +835,11 @@ blockquote {
         padding: 10px 20px;
     }
     
-    .nav-btn {
-        padding: 10px 20px;
-        font-size: 18px;
+    .nav-btn, .prev-btn, .next-btn {
+        padding: 10px 20px !important;
+        font-size: 18px !important;
+        border: none !important;
+        outline: none !important;
     }
     
     h1 {
@@ -881,11 +880,13 @@ blockquote {
         bottom: 0;
     }
     
-    .nav-btn {
-        padding: 8px 15px;
-        font-size: 16px;
+    .nav-btn, .prev-btn, .next-btn {
+        padding: 8px 15px !important;
+        font-size: 16px !important;
         min-width: 100px;
         text-align: center;
+        border: none !important;
+        outline: none !important;
     }
     
     h1 {
