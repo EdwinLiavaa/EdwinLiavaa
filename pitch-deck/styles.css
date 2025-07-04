@@ -558,41 +558,22 @@ h3 {
     pointer-events: auto; /* Make buttons clickable */
 }
 
-/* RESET - Remove all existing button styles */
-button.nav-btn {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin: 0;
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    outline: none;
-    background: none;
-    box-shadow: none;
-    font-size: inherit;
-    color: inherit;
-    text-align: inherit;
-    line-height: normal;
-}
-
+/* Navigation buttons */
 /* Navigation buttons with round red styling */
 .nav-btn {
-    display: inline-block;
     border-radius: 50px; /* Round buttons */
     padding: 15px 25px;
+    font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
     color: white;
     font-weight: bold;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px !important; /* Force consistent font size */
+    position: relative;
+    z-index: 50; /* Higher than slide content but not too high */
     background: #e30613; /* Red color */
     box-shadow: 0 4px 8px rgba(227, 6, 19, 0.3); /* Red shadow */
-    border: none !important;
-    outline: none !important;
-    z-index: 50;
+    border: none;
+    outline: none;
 }
 
 .nav-btn:hover {
@@ -614,6 +595,11 @@ button.nav-btn {
 
 .prev-btn {
     margin-right: 10px;
+}
+
+.next-btn {
+    padding: 15px 25px;
+    font-size: 22px;
 }
 
 /* Both buttons share identical styling - no special overrides needed */
