@@ -582,20 +582,28 @@ h3 {
     padding: 15px 40px;
     background: transparent; /* Completely transparent */
     box-shadow: none; /* Remove shadow */
-    z-index: 5; /* Low z-index but still positioned correctly */
+    z-index: 100; /* Higher z-index to ensure visibility */
+    pointer-events: none; /* Allow clicks to pass through to slide content */
+}
+
+.slide-footer .nav-btn {
+    pointer-events: auto; /* Make buttons clickable */
 }
 
 /* Navigation buttons */
 .nav-btn {
     border-radius: 5px;
-    padding: 12px 25px;
-    font-size: 18px;
+    padding: 15px 25px;
+    font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
     color: white;
     font-weight: bold;
     position: relative;
     z-index: 50; /* Higher than slide content but not too high */
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
+    border: none;
 }
 
 .nav-btn:hover {
@@ -608,12 +616,7 @@ h3 {
     margin-right: 10px;
 }
 
-.next-btn {
-    padding: 15px 25px;
-    font-size: 22px;
-    font-weight: bold;
-    background-color: rgba(255, 107, 53, 0.9);
-}
+/* Both buttons now share identical styling through .nav-btn class */
 
 /* Main container for the presentation */
 body, html {
@@ -828,6 +831,15 @@ blockquote {
         padding: 20px 30px;
     }
     
+    .slide-footer {
+        padding: 10px 20px;
+    }
+    
+    .nav-btn {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    
     h1 {
         font-size: 32px;
     }
@@ -858,6 +870,19 @@ blockquote {
 @media (max-width: 480px) {
     .slide {
         padding: 15px 20px;
+        padding-bottom: 70px; /* Add space at bottom for navigation */
+    }
+    
+    .slide-footer {
+        padding: 10px 15px;
+        bottom: 0;
+    }
+    
+    .nav-btn {
+        padding: 8px 15px;
+        font-size: 16px;
+        min-width: 100px;
+        text-align: center;
     }
     
     h1 {
