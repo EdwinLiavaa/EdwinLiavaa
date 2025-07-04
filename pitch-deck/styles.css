@@ -576,10 +576,10 @@ button.nav-btn {
     line-height: normal;
 }
 
-/* Navigation buttons - round red styling */
+/* Navigation buttons with round red styling */
 .nav-btn {
     display: inline-block;
-    border-radius: 50px; /* Make buttons round */
+    border-radius: 50px; /* Round buttons */
     padding: 15px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -601,21 +601,19 @@ button.nav-btn {
     box-shadow: 0 6px 12px rgba(227, 6, 19, 0.4);
 }
 
-.prev-btn {
-    margin-right: 10px;
-    /* Ensure these are identical to next-btn */
-    font-size: 20px !important;
-    padding: 15px 25px;
+.prev-btn, .next-btn {
+    /* Ensure both buttons have identical styling */
     border-radius: 50px !important;
     background: #e30613 !important;
+    font-size: 20px !important;
+    padding: 15px 25px !important;
+    box-shadow: 0 4px 8px rgba(227, 6, 19, 0.3) !important;
+    border: none !important;
+    outline: none !important;
 }
 
-.next-btn {
-    /* Ensure these are identical to prev-btn */
-    font-size: 20px !important;
-    padding: 15px 25px;
-    border-radius: 50px !important;
-    background: #e30613 !important;
+.prev-btn {
+    margin-right: 10px;
 }
 
 /* Both buttons share identical styling - no special overrides needed */
@@ -846,6 +844,7 @@ blockquote {
         outline: none !important;
         border-radius: 50px !important;
         background: #e30613 !important;
+        box-shadow: 0 4px 8px rgba(227, 6, 19, 0.3) !important;
     }
     
     h1 {
@@ -895,6 +894,7 @@ blockquote {
         outline: none !important;
         border-radius: 50px !important;
         background: #e30613 !important;
+        box-shadow: 0 4px 8px rgba(227, 6, 19, 0.3) !important;
     }
     
     h1 {
