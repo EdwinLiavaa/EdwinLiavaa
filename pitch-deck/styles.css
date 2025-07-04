@@ -576,10 +576,10 @@ button.nav-btn {
     line-height: normal;
 }
 
-/* Navigation buttons - fresh styling */
+/* Navigation buttons - round red styling */
 .nav-btn {
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 50px; /* Make buttons round */
     padding: 15px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -588,17 +588,17 @@ button.nav-btn {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px !important; /* Force consistent font size */
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-    box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
+    background: #e30613; /* Red color */
+    box-shadow: 0 4px 8px rgba(227, 6, 19, 0.3); /* Red shadow */
     border: none !important;
     outline: none !important;
     z-index: 50;
 }
 
 .nav-btn:hover {
-    background: linear-gradient(135deg, #f85a21 0%, #e68213 100%);
+    background: #c1050f; /* Darker red on hover */
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(255, 107, 53, 0.4);
+    box-shadow: 0 6px 12px rgba(227, 6, 19, 0.4);
 }
 
 .prev-btn {
@@ -606,12 +606,16 @@ button.nav-btn {
     /* Ensure these are identical to next-btn */
     font-size: 20px !important;
     padding: 15px 25px;
+    border-radius: 50px !important;
+    background: #e30613 !important;
 }
 
 .next-btn {
     /* Ensure these are identical to prev-btn */
     font-size: 20px !important;
     padding: 15px 25px;
+    border-radius: 50px !important;
+    background: #e30613 !important;
 }
 
 /* Both buttons share identical styling - no special overrides needed */
@@ -840,6 +844,8 @@ blockquote {
         font-size: 18px !important;
         border: none !important;
         outline: none !important;
+        border-radius: 50px !important;
+        background: #e30613 !important;
     }
     
     h1 {
@@ -887,6 +893,8 @@ blockquote {
         text-align: center;
         border: none !important;
         outline: none !important;
+        border-radius: 50px !important;
+        background: #e30613 !important;
     }
     
     h1 {
