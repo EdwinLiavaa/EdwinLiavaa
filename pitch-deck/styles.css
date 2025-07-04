@@ -604,6 +604,8 @@ h3 {
     background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
     box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
     border: none;
+    outline: none;
+    text-align: center;
 }
 
 .nav-btn:hover {
@@ -612,8 +614,9 @@ h3 {
     box-shadow: 0 6px 12px rgba(255, 107, 53, 0.4);
 }
 
-.prev-btn {
+.prev-btn, .next-btn {
     margin-right: 10px;
+    font-size: 20px; /* Ensure identical font size */
 }
 
 /* Both buttons now share identical styling through .nav-btn class */
