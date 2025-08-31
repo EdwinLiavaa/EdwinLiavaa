@@ -1,11 +1,17 @@
 # Edwin Liava'a
 ## Professional Portfolio & Diverse Technology Experiences
 
-- Email: edwin@pasifika.xyz
+- Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
 ### Professional Highlights
+
+#### Chairman of the Board of Directors, Tonga Cable Ltd
+*May 2025 – Present*
+- Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system
+- Ensuring sustainable operation and expansion of critical national digital infrastructure
+- Driving initiatives to enhance connectivity and digital access across the Kingdom of Tonga
 
 #### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
 *Apr 2025 – Present*
@@ -14,18 +20,26 @@
 - Evaluated multiple blockchain platforms for production including EVM solutions (Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM) and Bitcoin-Native solutions (RootStock, Internet Computer)
 - Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islanders
 
+#### GIS Specialist (International Expert), OCA GLOBAL
+*Jul 2025 – Present · 2 mos*
+- ADB 175726: GRANT-0813 FSM: Renewable Energy Development Project, Disaster Risk Resilience (DRR) Consulting Services (49450-027)
+- GIS Additional Support
+- Utilities Operations & Preventive Maintenance Systems Development
+- Remote sensing analysis for infrastructure monitoring and disaster risk assessment
+
+#### GIS Specialist - Consultant, OCA GLOBAL
+*Nov 2023 – Jun 2025 · 1 yr 8 mos*
+- ADB 175726: GRANT-0813 FSM: Renewable Energy Development Project, Disaster Risk Resilience (DRR) Consulting Services (49450-027)
+- Developed disaster risk reduction policies and frameworks for electric utilities in Federated States of Micronesia to identify infrastructure exposure and vulnerability to natural hazards
+- Conducted risk assessments through GIS mapping and remote sensing to analyze asset damage likelihood from disasters and prioritize resilience investments
+- Provided capacity building to stakeholders staff on methodologies for ongoing disaster vulnerability analysis and risk monitoring
+
 #### GIS Team Leader, Kahuto Pacific
 *Feb 2025 – March 2025*
 - Oversee the development, implementation, and management of Geographic Information System (GIS) projects within the Moana Database.
 - Lead the team in pioneering the Pacific's first comprehensive geospatial data platform, delivering high-quality LiDAR and imagery data through an intuitive cloud-based portal.
 - Empower sustainable development across Pacific Island communities by providing accessible and actionable geospatial data.
 - Collaborate with stakeholders to ensure the platform meets the needs of governments, utilities, and development organizations.
-
-#### GIS Specialist, OCA GLOBAL
-*Dec 2023 – Present*
-- Developed disaster risk reduction policies for electric utilities in Federated States of Micronesia
-- Conducted comprehensive GIS risk assessments for infrastructure vulnerability
-- Provided capacity building in disaster vulnerability analysis and risk monitoring
 
 #### Satellite Communication Consultant, Dialectica
 *Oct 2024 – November 2024*

@@ -1,7 +1,7 @@
 # Edwin Liava'a
 ## Blockchain & Transformation Engineer
 
-- Email: edwin@pasifika.xyz
+- Email: edwin@liavaa.space
 - LinkedIn: [https://www.linkedin.com/in/edwin-liavaa/](https://www.linkedin.com/in/edwin-liavaa/)
 - GitHub: [https://github.com/EdwinLiavaa](https://github.com/EdwinLiavaa)
 
