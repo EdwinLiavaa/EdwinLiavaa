@@ -13,12 +13,14 @@
 - Ensuring sustainable operation and expansion of critical national digital infrastructure
 - Driving initiatives to enhance connectivity and digital access across the Kingdom of Tonga
 
-#### Founder & Full Stack Developer, Pasifika Web3 Tech Hub
+#### Founder & Full Stack Developer, Pasifika Data Chain
 *Apr 2025 – Present*
-- Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) specifically designed for Pacific Island communities
-- Engineered a platform using the native PASIFIKA token (PSF) built on Linea's zkEVM Layer-2 solution
-- Evaluated multiple blockchain platforms for production including EVM solutions (Arbitrum, zkSync Era, StarkNet, Base, Polygon zkEVM) and Bitcoin-Native solutions (RootStock, Internet Computer)
-- Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islanders
+- Building the first blockchain BY Pacific Islanders FOR Pacific Islanders - free, disaster-resilient digital infrastructure under complete community control
+- Architected a non-financial blockchain platform with zero-cost transactions (no gas fees) designed for pure utility and community empowerment
+- Implemented AI-powered data validation with Proof-of-Authority consensus, achieving 60% efficiency gains in production environments
+- Deployed FSM Utilities DePIN-GIS (Sept 2025): 60% faster field data collection, 75% fewer data entry errors, 87% AI classification accuracy, and immutable disaster-proof records
+- Developing multi-chain ecosystem across Linea, RootStock, and Arbitrum with integrated payment gateways (Circle, Stripe) for seamless fiat-to-crypto bridges
+- Pipeline projects: Tonga Postal Traceability Service and MEIDECC Decision Support System, targeting 50+ validators and 10+ applications by 2026
 
 #### GIS Specialist (International Expert), OCA GLOBAL
 *Jul 2025 – Present · 2 mos*

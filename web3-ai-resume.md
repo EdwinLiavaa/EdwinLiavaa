@@ -19,12 +19,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Leveraging blockchain and emerging technologies to improve security and management of telecommunications infrastructure
 
 #### Founder & Full Stack Developer
-**Pasifika Web3 Tech Hub (pasifika.xyz)** | Apr 2025 – Present
-- Founded and developed a groundbreaking decentralized physical infrastructure network (DePIN) designed specifically for Pacific Island communities
-- Architected and implemented a comprehensive multi-chain ecosystem with a focus on cultural significance and community empowerment
-- Built the platform on multiple blockchain networks including Linea (zkEVM scaling), RootStock (Bitcoin sidechain), and Arbitrum (optimistic rollups) to ensure maximum accessibility and interoperability
-- Integrated Circle and Stripe payment gateways as fiat-to-crypto bridges, providing seamless on/off-ramps tailored to Pacific communities and businesses
-- Created a sustainable economic ecosystem that preserves cultural heritage while establishing new digital opportunities for Pacific Islander communities
+**Pasifika Data Chain (pasifika.xyz)** | Apr 2025 – Present
+- Building the first blockchain BY Pacific Islanders FOR Pacific Islanders - free, disaster-resilient digital infrastructure under complete community control
+- Architected a non-financial blockchain platform with zero-cost transactions (no gas fees) designed for pure utility and community empowerment
+- Implemented AI-powered data validation with Proof-of-Authority consensus, achieving 60% efficiency gains in production environments
+- Deployed FSM Utilities DePIN-GIS (Sept 2025): 60% faster field data collection, 75% fewer data entry errors, 87% AI classification accuracy, and immutable disaster-proof records
+- Developing multi-chain ecosystem across Linea, RootStock, and Arbitrum with integrated payment gateways (Circle, Stripe) for seamless fiat-to-crypto bridges
+- Pipeline projects: Tonga Postal Traceability Service and MEIDECC Decision Support System, targeting 50+ validators and 10+ applications by 2026
 
 #### Web3 & AI Integration Specialist
 **Freelance** | Jan 2025 – Present
