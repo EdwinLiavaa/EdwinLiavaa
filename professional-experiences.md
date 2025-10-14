@@ -7,6 +7,11 @@
 
 ### Professional Highlights
 
+#### TNQAB - Panel Member (Contractor)
+*Oct 2025 – Present · 1 mo*
+- Member of the Tonga National Qualifications and Accreditation Board (TNQAB) programme accreditation, registration and approval Panel
+- TNQAB ensures that Tonga's qualifications are valued as credible, both nationally and internationally
+
 #### Chairman of the Board of Directors, Tonga Cable Ltd
 *May 2025 – Present*
 - Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system
