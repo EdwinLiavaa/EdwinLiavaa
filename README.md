@@ -8,7 +8,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/edwin-liavaa/) 
 [![Twitter](https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=X)](https://twitter.com/EdwinLiavaa)
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-aqua?style=for-the-badge&logo=ResearchGate)](https://www.researchgate.net/profile/Edwin-Liavaa)
-[![OSGeo](https://img.shields.io/badge/OSGeo-bluegreen?style=for-the-badge&logo=OSGeo)](https://www.osgeo.org/member/liavaa/)
 [![YouTube](https://img.shields.io/badge/Youtube-red?style=for-the-badge&logo=Youtube)](https://www.youtube.com/@EdwinLiavaa)
 
 ## About Me
