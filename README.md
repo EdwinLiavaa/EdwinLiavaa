@@ -3,8 +3,6 @@
 ## Connect With Me
 
 [![Chainlink](https://img.shields.io/badge/Chainlink-6495ED?style=for-the-badge&logo=Chainlink)](https://chain.link/developers/experts) 
-[![Bitcoin Talents](https://img.shields.io/badge/Bitcoin%20Talents-yellow?style=for-the-badge&logo=Bitcoin)](https://web3-talents.io/btctalents/btcmentors/bitcoin-talents-mentor-edwin-liavaa/) 
-[![DLT Talents](https://img.shields.io/badge/DLT%20Talents-magenta?style=for-the-badge&logo=debridlink)](https://web3-talents.io/dlttalents/dlt-talents-mentor-edwin-liavaa/) 
 [![HackerNoon](https://img.shields.io/badge/Hackernoon-green?style=for-the-badge&logo=Hackernoon)](https://hackernoon.com/u/edwinliavaa)
 [![Devpost](https://img.shields.io/badge/Devpost-003E54?logo=devpost&logoColor=fff&style=for-the-badge)](https://devpost.com/etuini-liavaa) 
 [![Codeium](https://img.shields.io/badge/Codeium-darkgreen?style=for-the-badge&logo=Codeium)](https://codeium.com/profile/edwinliavaa)
