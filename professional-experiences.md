@@ -7,6 +7,14 @@
 
 ### Professional Highlights
 
+#### Interim Chief Executive Officer, Tonga Post
+*Nov 2025 – Present*
+- Leading comprehensive digital transformation and modernization initiatives for Tonga's national postal service
+- Implementing innovative technology solutions including blockchain-based traceability systems for postal operations
+- Driving organizational restructuring and capacity building to position Tonga Post for the digital economy
+- Developing strategic partnerships to enhance service delivery and expand digital infrastructure capabilities
+- Managing operational improvements to increase efficiency and customer satisfaction across postal services
+
 #### TNQAB - Panel Member (Contractor)
 *Oct 2025 – Present · 1 mo*
 - Member of the Tonga National Qualifications and Accreditation Board (TNQAB) programme accreditation, registration and approval Panel

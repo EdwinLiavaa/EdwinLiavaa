@@ -10,6 +10,13 @@ Visionary technology leader with decades of experience in digital transformation
 
 ### Key Leadership Roles
 
+#### Interim Chief Executive Officer, Tonga Post
+*Nov 2025 – Present*
+- Leading digital transformation and modernization of Tonga's national postal service infrastructure
+- Implementing technology solutions to enhance operational efficiency and expand service delivery capabilities
+- Developing strategic partnerships to integrate innovative digital solutions for postal and logistics services
+- Overseeing organizational development and capacity building initiatives
+
 #### Chairman of the Board of Directors, Tonga Cable Ltd
 *May 2025 – Present*
 - Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system

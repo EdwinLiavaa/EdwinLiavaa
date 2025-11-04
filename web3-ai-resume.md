@@ -11,6 +11,13 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 
 ### Professional Experience
 
+#### Interim Chief Executive Officer
+**Tonga Post** | Nov 2025 – Present
+- Leading comprehensive digital transformation initiatives to modernize Tonga's national postal infrastructure and services
+- Implementing innovative technology solutions to enhance operational efficiency and customer service delivery
+- Driving strategic initiatives to integrate emerging technologies including blockchain for postal traceability systems
+- Managing organizational restructuring and capacity building to position Tonga Post for the digital economy
+
 #### Chairman of the Board of Directors
 **Tonga Cable Ltd** | May 2025 – Present
 - Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system

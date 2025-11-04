@@ -10,6 +10,13 @@ Experienced Geospatial Systems Analyst/Developer with over 20 years of expertise
 
 ### Professional Experience
 
+#### Interim Chief Executive Officer, Tonga Post
+*Nov 2025 – Present*
+- Leading digital transformation initiatives for Tonga's national postal service with focus on GIS-enabled logistics and tracking systems
+- Implementing geospatial technologies to optimize postal route planning and delivery efficiency
+- Developing location-based services and mapping solutions for postal infrastructure modernization
+- Integrating spatial data management systems to enhance operational decision-making
+
 #### GIS Specialist (International Expert), OCA GLOBAL
 *Jul 2025 – Present · 2 mos*
 - ADB 175726: GRANT-0813 FSM: Renewable Energy Development Project, Disaster Risk Resilience (DRR) Consulting Services (49450-027)
