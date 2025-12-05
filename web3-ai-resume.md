@@ -18,6 +18,12 @@ A Smart Contract Security Researcher and Chainlink Developer Expert with over fi
 - Driving strategic initiatives to integrate emerging technologies including blockchain for postal traceability systems
 - Managing organizational restructuring and capacity building to position Tonga Post for the digital economy
 
+#### Consultant - Individual Contractor
+**United Nations Development Programme (UNDP)** | Nov 2025 – Present
+- Development of the Ministry of Meteorology, Energy, Information, Disaster Management, Environment, Climate Change & Communications (MEIDECC) Wide Dashboard & Performance Tracking System
+- Designing and implementing comprehensive data visualization and performance monitoring solutions for government ministry operations
+- Leveraging modern web technologies and data analytics to create actionable insights for climate and disaster management
+
 #### Chairman of the Board of Directors
 **Tonga Cable Ltd** | May 2025 – Present
 - Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system

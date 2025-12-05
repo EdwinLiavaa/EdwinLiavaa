@@ -17,6 +17,11 @@ Visionary technology leader with decades of experience in digital transformation
 - Developing strategic partnerships to integrate innovative digital solutions for postal and logistics services
 - Overseeing organizational development and capacity building initiatives
 
+#### Consultant - Individual Contractor, United Nations Development Programme (UNDP)
+*Nov 2025 – Present*
+- Development of the Ministry of Meteorology, Energy, Information, Disaster Management, Environment, Climate Change & Communications (MEIDECC) Wide Dashboard & Performance Tracking System
+- Designing and implementing comprehensive data visualization and performance monitoring solutions for government ministry operations
+
 #### Chairman of the Board of Directors, Tonga Cable Ltd
 *May 2025 – Present*
 - Providing strategic leadership and governance oversight for Tonga's international fiber optic submarine cable system

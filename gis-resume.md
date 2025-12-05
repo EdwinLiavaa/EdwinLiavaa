@@ -17,6 +17,12 @@ Experienced Geospatial Systems Analyst/Developer with over 20 years of expertise
 - Developing location-based services and mapping solutions for postal infrastructure modernization
 - Integrating spatial data management systems to enhance operational decision-making
 
+#### Consultant - Individual Contractor, United Nations Development Programme (UNDP)
+*Nov 2025 – Present*
+- Development of the Ministry of Meteorology, Energy, Information, Disaster Management, Environment, Climate Change & Communications (MEIDECC) Wide Dashboard & Performance Tracking System
+- Designing and implementing comprehensive data visualization and geospatial monitoring solutions for climate and disaster management operations
+- Integrating spatial data analytics for environmental monitoring and decision support systems
+
 #### GIS Specialist (International Expert), OCA GLOBAL
 *Jul 2025 – Present · 2 mos*
 - ADB 175726: GRANT-0813 FSM: Renewable Energy Development Project, Disaster Risk Resilience (DRR) Consulting Services (49450-027)

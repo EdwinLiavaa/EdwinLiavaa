@@ -15,10 +15,22 @@
 - Developing strategic partnerships to enhance service delivery and expand digital infrastructure capabilities
 - Managing operational improvements to increase efficiency and customer satisfaction across postal services
 
-#### TNQAB - Panel Member (Contractor)
-*Oct 2025 – Present · 1 mo*
+#### Consultant - Individual Contractor, United Nations Development Programme (UNDP)
+*Nov 2025 – Present*
+- Development of the Ministry of Meteorology, Energy, Information, Disaster Management, Environment, Climate Change & Communications (MEIDECC) Wide Dashboard & Performance Tracking System
+- Designing and implementing comprehensive data visualization and performance monitoring solutions for government ministry operations
+
+#### TNQAB - Accreditation Panel Member
+*Dec 2025 – Present*
 - Member of the Tonga National Qualifications and Accreditation Board (TNQAB) programme accreditation, registration and approval Panel
-- TNQAB ensures that Tonga's qualifications are valued as credible, both nationally and internationally
+- Programme accreditation for the Tonga National University (TNU) Bachelor in Information Technology Level 7
+- Location: Nuku'alofa, Tongatapu, Tonga
+
+#### TNQAB - Accreditation Panel Member
+*Oct 2025 – Nov 2025*
+- Member of the Tonga National Qualifications and Accreditation Board (TNQAB) programme accreditation, registration and approval Panel
+- Programme accreditation for the Tupou Tertiary Institute (TTI) Certificate in Information Technology Level 4
+- Location: Tongatapu, Tonga
 
 #### Chairman of the Board of Directors, Tonga Cable Ltd
 *May 2025 – Present*
