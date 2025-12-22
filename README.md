@@ -16,7 +16,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## GitHub Stats 📊
 
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/EdwinLiavaa)](https://git.io/awesome-stats-card)
+[![Edwin’s GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)](https://github.com/EdwinLiavaa)
 
 ## Projects & Contributions
 
