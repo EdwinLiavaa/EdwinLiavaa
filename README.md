@@ -14,12 +14,6 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Bounty Writer
 
-## GitHub Profile Summary Cards 
-
-[![Profile Details](https://raw.githubusercontent.com/EdwinLiavaa/EdwinLiavaa/main/profile-summary-card-output/default/0-profile-details.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![Repos Per Language](https://raw.githubusercontent.com/EdwinLiavaa/EdwinLiavaa/main/profile-summary-card-output/default/3-stats.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-[![Top Languages by Commit](https://raw.githubusercontent.com/EdwinLiavaa/EdwinLiavaa/main/profile-summary-card-output/default/2-most-commit-language.svg)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
-
 ## Projects & Contributions
 
 ### Pasifika - The Web3 Tech Hub
