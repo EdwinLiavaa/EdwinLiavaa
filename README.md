@@ -20,8 +20,6 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
 
-![trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=EdwinLiavaa&theme=onedark&column=7)
-
 ## My Portfolios & Resumes
 
 - [liavaa.space](https://liavaa.space/)
