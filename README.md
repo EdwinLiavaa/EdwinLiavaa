@@ -14,28 +14,7 @@
 
 Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Prompt Engineer | AI | ML | Web3 | Blockchain | Smart Contracts | GIS | Geomatics | Bounty Writer
 
-## Projects & Contributions
-
-### Pasifika - The Web3 Tech Hub
-- My latest project focused on creating a decentralized physical infrastructure network (DePIN) for Pacific Island communities
-- [View Project Repository](https://github.com/Pasifika-Web3-Tech-Hub)
-
-### Smart Contract Security Research
-- [Cyfrin Codehawks Security Portfolio](https://github.com/EdwinLiavaa/codehawks-security-portfolio)
-
-### Whitepaper
-- Authored a whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-work consensus
-- [View Whitepaper](https://github.com/EdwinLiavaa/Whitepaper)
-
-### FOSS4G - Pacific Utilities GIS Innovation
-- [Open-Sourcing Decades of GIS Innovation](https://github.com/EdwinLiavaa/pacific-utilities-gis)
-
-### PasifikaOS
-- An innovative operating system project for Pacific Islanders
-- [View PasifikaOS](https://github.com/EdwinLiavaa/pasifikaos)
-
-### My Blog
-- [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
+## My GitHub Stats
 
 ![Your GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
 
@@ -43,9 +22,12 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ![trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=EdwinLiavaa&theme=onedark&column=7)
 
-## Portfolios & Resumes
+## My Portfolios & Resumes
 
-- [Web3 & AI Resume](web3-ai-resume.md)
-- [Geomatics | Geospatial | GIS Resume](gis-resume.md)
-- [Internet & Telecommunications Resume](telecom-resume.md)
-- [Professional & Diverse Technology Experiences](professional-experiences.md)
+- [liavaa.space](https://liavaa.space/)
+
+## My Publications
+
+- [Hackernoon](https://hackernoon.com/u/edwinliavaa)
+- [ResearchGate](https://www.researchgate.net/profile/Edwin-Liavaa)
+
