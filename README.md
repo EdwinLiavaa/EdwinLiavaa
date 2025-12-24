@@ -1,4 +1,4 @@
-# Malo e Lelei - Welcome!
+# Mālō e lelei - Welcome!
 
 ## Connect With Me
 
