@@ -37,6 +37,12 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 ### My Blog
 - [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
+
+![trophy](https://github-profile-trophy.vercel.app/?username=EdwinLiavaa&theme=onedark&column=7)
+
 ## Portfolios & Resumes
 
 - [Web3 & AI Resume](web3-ai-resume.md)
