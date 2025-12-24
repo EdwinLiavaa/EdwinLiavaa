@@ -37,11 +37,11 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 ### My Blog
 - [liavaa.space](https://github.com/EdwinLiavaa/liavaa.space)
 
-![Your GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
 
-![Top Languages](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
 
-![trophy](https://github-profile-trophy.vercel.app/?username=EdwinLiavaa&theme=onedark&column=7)
+![trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=EdwinLiavaa&theme=onedark&column=7)
 
 ## Portfolios & Resumes
 
