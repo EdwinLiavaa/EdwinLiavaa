@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edwin Liava'a | Pasifika.xyz Migration Notice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #0b0c10;
-            --panel: #1f2833;
-            --accent: #66fcf1;
-            --accent-dark: #45a29e;
-            --text: #c5c6c7;
+            --dark-grey: #333333;
+            --medium-grey: #444444;
+            --light-grey: #f8f8f8;
             --white: #ffffff;
+            --accent: #ff5722;
+            --accent-light: #ff9800;
         }
 
         * {
@@ -21,23 +24,26 @@
         body {
             margin: 0;
             min-height: 100vh;
-            font-family: "Space Grotesk", "Segoe UI", sans-serif;
-            background: radial-gradient(circle at top, #16213e, #0b0c10);
-            color: var(--text);
+            font-family: "Poppins", sans-serif;
+            background: linear-gradient(135deg, rgba(255, 87, 34, 0.08), rgba(68, 68, 68, 0.08));
+            color: var(--dark-grey);
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 2rem;
         }
 
+        .notice-wrapper {
+            width: min(460px, 100%);
+        }
+
         .notice {
-            width: min(420px, 100%);
-            background: var(--panel);
+            background: var(--white);
             border-radius: 18px;
-            box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
-            padding: 2.5rem 2rem;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+            padding: 2.5rem 2.25rem;
             text-align: center;
-            border: 1px solid rgba(102, 252, 241, 0.2);
+            border: 1px solid rgba(255, 87, 34, 0.15);
             position: relative;
             overflow: hidden;
         }
@@ -46,13 +52,13 @@
             content: "";
             position: absolute;
             inset: 0;
-            background: linear-gradient(135deg, rgba(102, 252, 241, 0.12), transparent 55%);
+            background: linear-gradient(135deg, rgba(255, 152, 0, 0.08), transparent 55%);
             pointer-events: none;
         }
 
         h1 {
             font-size: 1.8rem;
-            color: var(--white);
+            color: var(--dark-grey);
             margin-bottom: 1rem;
             letter-spacing: 0.02em;
         }
@@ -75,8 +81,8 @@
             padding: 0.9rem 1.2rem;
             border-radius: 999px;
             border: none;
-            background: linear-gradient(120deg, var(--accent), var(--accent-dark));
-            color: #0b0c10;
+            background: linear-gradient(120deg, var(--accent), var(--accent-light));
+            color: var(--white);
             font-weight: 600;
             text-decoration: none;
             text-transform: uppercase;
@@ -86,7 +92,7 @@
 
         .cta:hover {
             transform: translateY(-2px);
-            box-shadow: 0 15px 35px rgba(102, 252, 241, 0.35);
+            box-shadow: 0 15px 35px rgba(255, 87, 34, 0.25);
         }
 
         @media (max-width: 600px) {
@@ -97,14 +103,16 @@
     </style>
 </head>
 <body>
-    <div class="notice" role="alert" aria-live="assertive">
-        <h1>Kia Ora & Mālō e lelei</h1>
+    <div class="notice-wrapper">
+        <div class="notice" role="alert" aria-live="assertive">
+        <h1>Mālō e lelei</h1>
         <p><strong>Public & Development Partner Notice:</strong></p>
         <p>Edwin Liava'a has fully migrated his web presence to <strong>pasifika.xyz</strong>.</p>
         <p>Please update your bookmarks to the new hub:</p>
         <p><strong>https://pasifika.xyz/edwin.liavaa/</strong></p>
         <p>The legacy domain <strong>liavaa.space</strong> will be parked in <strong>January 2026</strong> as all priorities consolidate with Pasifika.xyz.</p>
         <a class="cta" href="https://pasifika.xyz/edwin.liavaa/" target="_blank" rel="noopener">Visit Pasifika.xyz</a>
+    </div>
     </div>
 </body>
 </html>
