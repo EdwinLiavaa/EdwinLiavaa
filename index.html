@@ -3,533 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edwin Liava'a - Pasifika Web3 Tech Hub</title>
-    <link rel="icon" href="logo.png" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Edwin Liava'a | Pasifika.xyz Migration Notice</title>
     <style>
-        /* Pasifika Web3 Tech Hub - Theme Variables */
         :root {
-            /* Primary Colors */
-            --primary-color: #333333;     /* Dark Grey */
-            --secondary-color: #444444;   /* Medium Grey */
-            --accent-color: #FF5722;      /* Orange */
-            
-            /* Color Palette */
-            --dark-grey: #333333;         /* Dark Grey */
-            --medium-grey: #444444;       /* Medium Grey */
-            --light-grey: #f8f8f8;        /* Light Grey */
-            --orange: #FF5722;            /* Orange */
-            --orange-light: #FF9800;      /* Light Orange */
-            --white: #FFFFFF;             /* White */
-            
-            /* UI Colors */
-            --light-text: #FFFFFF;        /* White */
-            --dark-text: #333333;         /* Dark Grey */
-            --background: #FFFFFF;        /* White */
-            --card-bg: #f8f8f8;           /* Light Grey */
+            --bg: #0b0c10;
+            --panel: #1f2833;
+            --accent: #66fcf1;
+            --accent-dark: #45a29e;
+            --text: #c5c6c7;
+            --white: #ffffff;
         }
-        
+
         * {
-            margin: 0;
-            padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.6;
-            color: var(--dark-text);
-            background: var(--background);
+            margin: 0;
             min-height: 100vh;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
+            font-family: "Space Grotesk", "Segoe UI", sans-serif;
+            background: radial-gradient(circle at top, #16213e, #0b0c10);
+            color: var(--text);
             display: flex;
-            flex-direction: column;
-            background: var(--background);
-            color: var(--dark-text);
-            transition: background-color 0.3s, color 0.3s;
-        }
-        
-        header {
-            text-align: center;
-            padding: 3rem 1rem;
-            background-image: url('pasifika.png');
-            background-size: cover;
-            background-position: center;
-            color: var(--light-text);
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid var(--accent-color);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-        
-        .subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 1.5rem;
-            opacity: 0.9;
-            font-weight: 500;
-        }
-        
-        section {
-            background: var(--white);
-            padding: 2rem;
-            border-radius: 10px;
-            margin-bottom: 2rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-        
-        h2 {
-            color: var(--dark-grey);
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.5rem;
-            font-weight: 700;
-            font-size: 2rem;
-        }
-        
-        h3 {
-            color: var(--dark-grey);
-            margin-bottom: 1rem;
-            margin-top: 1.5rem;
-            font-weight: 600;
-            font-size: 1.3rem;
-        }
-        
-        p {
-            margin-bottom: 1rem;
-        }
-        
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin-bottom: 1.5rem;
-        }
-        
-        .skill-tag {
-            background: var(--light-grey);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            color: var(--dark-grey);
-            border: 1px solid #e9ecef;
-            transition: all 0.3s ease;
-        }
-        
-        .skill-tag:hover {
-            background: var(--orange-light);
-            color: var(--white);
-            transform: translateY(-2px);
-        }
-        
-        .profile-pic-container {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            overflow: hidden;
-            margin: 20px auto;
-            border: 3px solid var(--orange);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        
-        .profile-pic {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        .social-links {
-            display: flex;
-            flex-wrap: wrap;
+            align-items: center;
             justify-content: center;
-            gap: 1rem;
-            margin-top: 1.5rem;
+            padding: 2rem;
         }
-        
-        .social-link {
+
+        .notice {
+            width: min(420px, 100%);
+            background: var(--panel);
+            border-radius: 18px;
+            box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+            padding: 2.5rem 2rem;
+            text-align: center;
+            border: 1px solid rgba(102, 252, 241, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .notice::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(102, 252, 241, 0.12), transparent 55%);
+            pointer-events: none;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+            letter-spacing: 0.02em;
+        }
+
+        p {
+            margin: 0 0 1rem;
+            line-height: 1.6;
+        }
+
+        strong {
+            color: var(--accent);
+        }
+
+        .cta {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: var(--white);
-            color: var(--dark-grey);
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-            margin: 0 5px;
-        }
-        
-        .social-link:hover {
-            transform: translateY(-3px);
-            background: linear-gradient(to right, var(--orange), var(--orange-light));
-            color: var(--white);
-        }
-        
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        
-        .project-card {
-            background: var(--card-bg);
-            border-radius: 10px;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-            border: 1px solid rgba(255, 87, 34, 0.1);
-        }
-        
-        .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            border-color: var(--orange);
-        }
-        
-        .project-content {
-            padding: 1.5rem;
-        }
-        
-        .project-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(to right, var(--orange), var(--orange-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            display: inline-block;
-        }
-        
-        .project-description {
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-            color: #555;
-        }
-        
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            border-radius: 4px;
-            font-weight: 500;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            border: none;
-            background: linear-gradient(to right, var(--orange), var(--orange-light));
-            color: var(--light-text);
-            text-decoration: none;
-            font-size: 0.9rem;
-        }
-        
-        .btn:hover {
-            opacity: 0.9;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .stats {
-            background: var(--light-color);
-            padding: 1.5rem;
-            border-radius: 10px;
-            text-align: center;
-        }
-        
-        .portfolios {
-            list-style-type: none;
-            padding: 0.5rem;
-        }
-        
-        .portfolios li {
-            margin-bottom: 1rem;
-            background-color: var(--light-grey);
-            border-radius: 8px;
-            padding: 0.7rem 1rem;
-            transition: all 0.3s ease;
-            border-left: 3px solid var(--orange);
-        }
-        
-        .portfolios li:hover {
-            transform: translateX(5px);
-            background-color: var(--white);
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
-            border-left: 3px solid var(--orange-light);
-        }
-        
-        .portfolios a {
-            color: var(--dark-grey);
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            padding: 8px 0;
-            display: inline-block;
             width: 100%;
+            margin-top: 1.5rem;
+            padding: 0.9rem 1.2rem;
+            border-radius: 999px;
+            border: none;
+            background: linear-gradient(120deg, var(--accent), var(--accent-dark));
+            color: #0b0c10;
+            font-weight: 600;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        
-        .portfolios i {
-            color: var(--orange);
-            margin-right: 12px;
-            font-size: 1.1rem;
-            width: 24px;
-            text-align: center;
+
+        .cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 35px rgba(102, 252, 241, 0.35);
         }
-        
-        .portfolios a:hover {
-            color: var(--orange);
-            transform: translateX(5px);
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem 1rem;
-            background-color: var(--dark-grey);
-            color: var(--light-text);
-            border-radius: 10px;
-            margin-top: 2rem;
-            border-top: 2px solid var(--accent-color);
-        }
-        
-        @media (max-width: 768px) {
-            .projects {
-                grid-template-columns: 1fr;
-            }
-            
+
+        @media (max-width: 600px) {
             h1 {
-                font-size: 2.5rem;
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Edwin Liava'a</h1>
-            <div class="profile-pic-container">
-                <img src="profile.png" alt="Edwin Liava'a" class="profile-pic">
-            </div>
-            <p class="subtitle">Founder & Full Stack Developer of <a href="https://pasifika.xyz" style="text-decoration: none;"><span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Pasifika.xyz</span></a></p>
-            <div class="social-links">
-                <a href="https://chain.link/developers/experts" class="social-link" title="Chainlink"><i class="fas fa-link"></i></a>
-                <a href="https://www.linkedin.com/in/edwin-liavaa/" class="social-link" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://twitter.com/EdwinLiavaa" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.researchgate.net/profile/Edwin-Liavaa" class="social-link" title="ResearchGate"><i class="fas fa-flask"></i></a>
-                <a href="https://hackernoon.com/u/edwinliavaa" class="social-link" title="HackerNoon"><i class="fas fa-pen-nib"></i></a>
-                <a href="https://www.youtube.com/@EdwinLiavaa" class="social-link" title="YouTube"><i class="fab fa-youtube"></i></a>
-                <a href="https://github.com/EdwinLiavaa" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://www.pacificblockchainsummit.com/speakers" class="social-link" title="Pacific Blockchain Summit"><i class="fab fa-bitcoin"></i></a>
-                
-            </div>
-        </header>
-        
-        <section>
-            <h2>Professional <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Profile</span></h2>
-            <div class="skills">
-                <span class="skill-tag">Humanitarian</span>
-                <span class="skill-tag">Mentor</span>
-                <span class="skill-tag">Advisor</span>
-                <span class="skill-tag">Innovator</span>
-                <span class="skill-tag">Activist</span>
-                <span class="skill-tag">Software Engineer</span>
-                <span class="skill-tag">Prompt Engineer</span>
-                <span class="skill-tag">AI</span>
-                <span class="skill-tag">ML</span>
-                <span class="skill-tag">Web3</span>
-                <span class="skill-tag">Blockchain</span>
-                <span class="skill-tag">Smart Contracts</span>
-                <span class="skill-tag">GIS</span>
-                <span class="skill-tag">Geomatics</span>
-                <span class="skill-tag">Bounty Writer</span>
-            </div>
-            
-            <p>What sets me apart as a leader is that I can work effectively at both the policy level with government officials and ministers, and in the technical trenches as a Full Stack Developer and Transformation Engineer. When I give policy advice, it's grounded in real world technical experience and what actually works in practice.</p>
-            
-            <h3>Key Leadership Roles</h3>
-            <p><strong>Interim Chief Executive Officer, Tonga Post</strong> - Leading digital transformation and modernization initiatives for Tonga's national postal service</p>
-            
-            <p><strong>Consultant - Individual Contractor, United Nations Development Programme (UNDP)</strong> - Development of the MEIDECC Wide Dashboard & Performance Tracking System</p>
-            
-            <p><strong>Chairman, Tonga Cable Ltd</strong> - Strategic oversight for Tonga's international fiber optic submarine cable system</p>
-            
-            <p><strong>Former CEO, Tonga Cable Ltd (2018-2020)</strong> - Spearheaded Tonga's first international fiber optic submarine cable system</p>
-            
-            <p><strong>Former Regional Corporate Development Director, Kacific Broadband Satellites Group</strong> - Expanded satellite broadband coverage across the Pacific, forging partnerships with governments, telecom operators, and regulators</p>
-            
-            <p><strong>Founder & Full Stack Developer, Pasifika Web3 Tech Hub</strong> - Building blockchain infrastructure for Pacific Island communities</p>
-            
-            <p><strong>Chainlink Developer Expert & Mentor, Frankfurt School Blockchain Center</strong></p>
-            
-            <h3>Pasifika Data Chain</h3>
-            <p>I'm building the <strong>Pasifika Data Chain</strong>, the first blockchain BY Pacific Islanders FOR Pacific Islanders. It's not cryptocurrency; it's free, disaster resilient digital infrastructure under complete community control.</p>
-            
-            <p><strong>Key Features:</strong></p>
-            <ul>
-                <li>Zero cost transactions (no gas fees)</li>
-                <li>Non financial design (pure utility)</li>
-                <li>AI-powered data validation</li>
-                <li>Proof-of-Authority consensus</li>
-                <li>60% efficiency gains in production</li>
-            </ul>
-            <br>
-            <p><strong>FSM Utilities DePIN GIS</strong> (Full Deployment Postponed 2026):</p>
-            <ul>
-                <li>60% faster field data collection</li>
-                <li>75% fewer data entry errors</li>
-                <li>87% AI classification accuracy</li>
-                <li>Immutable disaster-proof records</li>
-            </ul>
-            <br>
-            <p><strong>Pipeline:</strong> Tonga Postal Traceability Service, MEIDECC Decision Support System</p>
-            
-            <p><strong>Vision:</strong> 50+ validators, 10+ applications by 2026</p>
-            
-            <h3>Expertise</h3>
-            <p>Over three decades, I've deployed technology solutions across Melanesia, Polynesia, and Micronesia. My work spans traditional infrastructure (submarine cables, satellite networks) to cutting edge blockchain and AI-powered Web3 technologies.</p>
-            
-            <p><strong>Core Competencies:</strong> Policy & government relations, full-stack development, infrastructure development, project management, partnership building, translating technical concepts into policy guidance.</p>
-            
-            <p>My approach is guided by the Pacific principle: <strong>"If we take care of our own, they will take care of us."</strong> I create solutions that preserve cultural heritage while opening digital opportunities, from decentralized governance models to open sourced GIS innovation for Pacific utilities.</p>
-            
-            <p><strong>Portfolio:</strong> <a href="https://liavaa.space/" style="color: var(--orange); text-decoration: none; font-weight: 600;">https://liavaa.space/</a> | <strong>Contact:</strong> <a href="mailto:edwin@liavaa.space" style="color: var(--orange); text-decoration: none; font-weight: 600;">edwin@liavaa.space</a></p>
-            
-            <p style="text-align: center; font-style: italic; margin-top: 1.5rem; color: var(--dark-grey); font-weight: 500;">"Our ocean connects us. Our blockchain proves it."</p>
-        </section>
-        
-        <section>
-            <h2>Projects & <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Contributions</span></h2>
-            <div class="projects">
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Chainlink Developer Experts</h3>
-                        <p class="project-description">Recognized as a Chainlink Developer Expert, contributing to oracle solutions and blockchain interoperability.</p>
-                        <a href="https://chain.link/developers/experts" class="btn">View Profile</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Google Developer Profiles</h3>
-                        <p class="project-description">Public profiles showcasing my developer identity and verified learning achievements across Google Developer and Google Skills Boost programs.</p>
-                        <div style="display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
-                            <a href="https://g.dev/EdwinL-Liavaa" class="btn">Google Developers</a>
-                            <a href="https://www.skills.google/public_profiles/8ac74c22-f97c-4a5e-bf5d-661680f19202" class="btn">Google Skills Boost</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Pasifika Data Chain</h3>
-                        <p class="project-description">The first blockchain BY Pacific Islanders FOR Pacific Islanders - free, disaster-resilient digital infrastructure under complete community control.</p>
-                        <a href="https://pasifika.xyz/pasifika-data-chain" class="btn">Explore Data Chain</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Pasifika.xyz DePIN Pitch Deck</h3>
-                        <p class="project-description">A detailed pitch deck for our Decentralized Physical Infrastructure Network solution for Pacific Island communities.</p>
-                        <a href="depin-pitch-deck.html" class="btn">View Pitch Deck</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Hackernoon Publications</h3>
-                        <p class="project-description">My articles and publications on Web3, blockchain, and emerging technologies on Hackernoon.</p>
-                        <a href="https://hackernoon.com/u/edwinliavaa" class="btn">Read & Subscribe</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Satellite Broadband Service Chain - Top Quality Project Winner</h3>
-                        <p class="project-description">Blockchain/Chainlink: Satellite Broadband Service Chain - Awarded Top Quality Project at Chainlink Fall Hackathon 2021 for innovative integration of blockchain with satellite infrastructure.</p>
-                        <a href="https://devpost.com/software/blockchain-chainlink-satellite-broadband-supply-chain" class="btn">View Winning Project</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Pasifika Web3 Tech Hub</h3>
-                        <p class="project-description">A decentralized physical infrastructure network (DePIN) for Pacific Island communities.</p>
-                        <a href="pitch-deck/pasifika-pitch-deck.html" class="btn">View Pitch Deck</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Rootstock Vyper Contributions</h3>
-                        <p class="project-description">Developed and contributed to Rootstock's ecosystem by building a Vyper Smart Contract deployment solution using Python.</p>
-                        <a href="https://dev.rootstock.io/developers/quickstart/rootstock-vyper/" class="btn">View Contribution</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Smart Contract Security</h3>
-                        <p class="project-description">Research and contributions in blockchain security and smart contract auditing.</p>
-                        <a href="https://github.com/EdwinLiavaa/codehawks-security-portfolio" class="btn">View Portfolio</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Blockchain Governance</h3>
-                        <p class="project-description">Whitepaper outlining a decentralized micro-governance model for the Kingdom of Tonga based on proof-of-authority consensus.</p>
-                        <a href="https://github.com/EdwinLiavaa/Whitepaper" class="btn">Read Whitepaper</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">Pacific Utilities GIS</h3>
-                        <p class="project-description">Open-sourcing decades of GIS innovation for Pacific utilities and infrastructure.</p>
-                        <a href="https://github.com/EdwinLiavaa/pacific-utilities-gis" class="btn">Explore Project</a>
-                    </div>
-                </div>
-                
-                <div class="project-card">
-                    <div class="project-content">
-                        <h3 class="project-title">PasifikaOS</h3>
-                        <p class="project-description">An innovative operating system project designed specifically for Pacific Islanders.</p>
-                        <a href="https://github.com/EdwinLiavaa/pasifikaos" class="btn">View PasifikaOS</a>
-                    </div>
-                </div>
-            </div>
-        </section>       
-        <section>
-            <h2>GitHub <span style="background: linear-gradient(to right, var(--orange), var(--orange-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; display: inline-block;">Stats</span></h2>
-            <div style="display: flex; flex-direction: column; gap: 1.5rem; align-items: center;">
-                <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=EdwinLiavaa&amp;show_icons=true&amp;theme=radical" alt="Edwin Liava'a GitHub stats" style="max-width: 100%; border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.25);">
-                <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=EdwinLiavaa&amp;layout=compact&amp;theme=radical" alt="Edwin Liava'a top languages" style="max-width: 100%; border-radius: 12px; box-shadow: 0 15px 35px rgba(0,0,0,0.25);">
-            </div>
-        </section>
-        <section>
-            <h2>Portfolios & Resumes</h2>
-            <ul class="portfolios">
-                <li><a href="web3-ai-resume.html"><i class="fas fa-code-branch"></i>Web3 & AI Resume</a></li>
-                <li><a href="gis-resume.html"><i class="fas fa-globe-asia"></i>Geomatics | Geospatial | GIS Resume</a></li>
-                <li><a href="telecom-resume.html"><i class="fas fa-wifi"></i>Internet & Telecommunications Resume</a></li>
-                <li><a href="professional-experiences.html"><i class="fas fa-briefcase"></i>Professional & Diverse Technology Experiences</a></li>
-            </ul>
-        </section>
-        
-        <footer>
-            <p>&copy; 2025 Edwin Liava'a | Pasifika.xyz</p>
-        </footer>
+    <div class="notice" role="alert" aria-live="assertive">
+        <h1>Kia Ora & Mālō e lelei</h1>
+        <p><strong>Public & Development Partner Notice:</strong></p>
+        <p>Edwin Liava'a has fully migrated his web presence to <strong>pasifika.xyz</strong>.</p>
+        <p>Please update your bookmarks to the new hub:</p>
+        <p><strong>https://pasifika.xyz/edwin.liavaa/</strong></p>
+        <p>The legacy domain <strong>liavaa.space</strong> will be parked in <strong>January 2026</strong> as all priorities consolidate with Pasifika.xyz.</p>
+        <a class="cta" href="https://pasifika.xyz/edwin.liavaa/" target="_blank" rel="noopener">Visit Pasifika.xyz</a>
     </div>
 </body>
 </html>
