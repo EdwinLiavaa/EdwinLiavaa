@@ -22,7 +22,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## My Portfolios & Resumes
 
-- [liavaa.space](https://liavaa.space/)
+- [liavaa.space](hhttps://pasifika.xyz/edwin.liavaa/)
 
 ## My Publications
 
