@@ -20,10 +20,6 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ![Top Languages](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
 
-## My Portfolios & Resumes
-
-- [liavaa.space](https://pasifika.xyz/edwin.liavaa/)
-
 ## My Publications
 
 - [Hackernoon](https://hackernoon.com/u/edwinliavaa)
