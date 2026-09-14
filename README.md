@@ -16,13 +16,13 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## My GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats-sigma-five.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
 
-![Top Languages](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
+![Top Languages](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
 
 ## My Portfolios & Resumes
 
-- [liavaa.space](hhttps://pasifika.xyz/edwin.liavaa/)
+- [liavaa.space](https://pasifika.xyz/edwin.liavaa/)
 
 ## My Publications
 
