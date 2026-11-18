@@ -16,7 +16,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## My GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical)
+![Your GitHub stats](https://github-readme-stats-one-bice.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical&include_all_commits=true)
 
 ![Top Languages](https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical)
 
