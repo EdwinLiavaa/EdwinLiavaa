@@ -16,9 +16,9 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## My GitHub Stats
 
-![Your GitHub stats](https://github-readme-stats-azure-xi-91.vercel.app/api?username=EdwinLiavaa&show_icons=true&theme=radical&include_all_commits=true&v=2)
+[![My GitHub Stats](https://github-stats-extended.vercel.app/api?username=EdwinLiavaa)](https://github.com/stats-organization/github-stats-extended)
 
-![Top Languages](https://github-readme-stats-azure-xi-91.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical&v=2)
+![My Top Languages](https://github-readme-stats-azure-xi-91.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical&v=2)
 
 ## My Publications
 
