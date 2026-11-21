@@ -16,7 +16,7 @@ Humanitarian | Mentor | Advisor | Innovator | Activist | Software Engineer | Pro
 
 ## My GitHub Stats
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=EdwinLiavaa)](https://github.com/anuraghazra/github-readme-stats)
+![My GitHub Stats](https://readme-stats-github.pages.dev/api?username=EdwinLiavaa&theme=shadow)
 
 ![My Top Languages](https://github-readme-stats-azure-xi-91.vercel.app/api/top-langs/?username=EdwinLiavaa&layout=compact&theme=radical&v=2)
 
